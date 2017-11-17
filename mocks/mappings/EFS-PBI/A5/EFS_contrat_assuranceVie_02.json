@@ -1,0 +1,37 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/assurancesVieNOBC/80000002",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      },
+      "coderacine": {
+        "equalTo": "A5R2"
+      }
+      //,
+      //"datevalorisation": {
+      // "equalTo": "08-09-2016"
+      // }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody":
+      {
+        "numero": "80000002",
+        "intitule": "HOCHE PATRIMOINE EVOLUTION CAPITALISATION",
+        "dateValorisation": "08-09-2016",
+        "nomAssureur": "NEUFLIZE VIE",
+        "premierSouscripteur": "NEEL PHILIPPE ",
+        "nantissement": "N",
+        "dateEffet": "15-09-1972",
+        "valorisation": "22927136.56",
+        "codeDevise": "EUR"
+      }
+  }
+}

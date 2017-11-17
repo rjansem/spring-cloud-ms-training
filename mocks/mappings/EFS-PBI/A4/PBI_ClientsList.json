@@ -1,0 +1,72 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/clients"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "clients": [
+        {
+          "clientid": "A4R1",
+          "firstname": "",
+          "middleNmae": "",
+          "lastName": "REVOL YVES",
+          "gender": "",
+          "title": "",
+          "mandateFlag": true,
+          "accounts": [
+            {
+              "type": "courant",
+              "typeId": "",
+              "subtype": "COMPTE A VUE",
+              "sybtypeId": "",
+              "id": "FR7630788001002504780000341",
+              "acountNumber": "00000000001",
+              "iban": "FR7630788001002504780000341"
+            },
+            {
+              "type": "courant",
+              "typeId": "",
+              "subtype": "COMPTE A VUE",
+              "sybtypeId": "",
+              "id": "FR7630788001002504780000342",
+              "acountNumber": "00000000002",
+              "iban": "FR7630788001002504780000342"
+            },
+            {
+              "type": "epargne",
+              "typeId": "",
+              "subtype": "PEA",
+              "sybtypeId": "",
+              "id": "FR7630788001002504780000343",
+              "acountNumber": "00000000002",
+              "iban": "FR7630788001002504780000343"
+            },
+            {
+              "type": "portefeuille",
+              "typeId": "",
+              "subtype": "PEA",
+              "sybtypeId": "",
+              "id": "",
+              "acountNumber": "80000341",
+              "iban": ""
+            },
+            {
+              "type": "Assurance vie",
+              "typeId": "",
+              "subtype": "Externe",
+              "sybtypeId": "",
+              "id": "",
+              "acountNumber": "80000341",
+              "iban": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

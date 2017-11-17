@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/80000001/datesValorisation",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "TESTCSA"
+      },
+      "coderacine": {
+        "equalTo": "8800001"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "dateValorisation": "18-12-2016"
+      }
+    ]
+  }
+}

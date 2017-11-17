@@ -1,0 +1,43 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/FR7630788001002504780000311/cartesBancaires",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A3"
+      },
+      "coderacine": {
+        "equalTo": "A3R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": 111,
+        "numero": "1002504780000311",
+        "titulaire": "M DOE CHRISTIAN",
+        "encours": "-393.920000",
+        "dateExpiration": "28-02-2017",
+        "type": "VISA CLASSIC internationale",
+        "_comment": "10=EURO",
+        "devise": 10
+      },
+      {
+        "id": 113,
+        "numero": "1002504780000313",
+        "titulaire": "M DOE CHRISTIAN",
+        "encours": "-393.920000",
+        "dateExpiration": "28-02-2017",
+        "type": "VISA CLASSIC internationale",
+        "_comment": "10=EURO",
+        "devise": 10
+      }
+    ]
+  }
+}

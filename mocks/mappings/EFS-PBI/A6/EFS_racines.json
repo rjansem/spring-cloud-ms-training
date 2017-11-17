@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/racines",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A6"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "code": "8800001",
+        "libelle": "REVOL YVES",
+        "titulaire": "O",
+        "dematerialisation": "N",
+        "droitDematerialisation": "O",
+        "droitEdocuments": "O",
+        "droitCredits": "N",
+        "profil": "",
+        "type": "",
+        "poids": 3
+      }
+    ]
+  }
+}

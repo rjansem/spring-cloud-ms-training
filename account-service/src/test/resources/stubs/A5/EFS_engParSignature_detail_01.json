@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/engagementsParSignature/24531",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      },
+      "coderacine": {
+        "equalTo": "A5R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "numero": "24531",
+      "nature": "AUTRES GARANTIES FINANCIERES  ",
+      "maturite": "15-06-2016",
+      "capitalRestantDu": "121747.000000",
+      "codeDevise": "EUR",
+      "dateDebut": "15-06-2010",
+      "montantEmprunte": "121747.000000",
+      "montantProchaineCommission": "517.180000",
+      "beneficiaire": ""
+    }
+  }
+}

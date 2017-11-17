@@ -1,0 +1,103 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/transactions/beneficiaires",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A3"
+      },
+      "codeapplication": {
+        "equalTo": "WBSCT3"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "tiers": [
+          {
+            "id": 101301,
+            "libelle": "Benef 2",
+            "iban": "FR7630003001001111111111101",
+            "listes": [
+              {
+                "libelle": "Ma liste"
+              },
+              {
+                "libelle": "TOUS"
+              }
+            ]
+          },
+          {
+            "id": 101302,
+            "libelle": "Benef 1",
+            "iban": "FR7630003001001111111111102",
+            "listes": [
+              {
+                "libelle": "Ma liste"
+              },
+              {
+                "libelle": "TOUS"
+              }
+            ]
+          },
+          {
+            "id": 101303,
+            "libelle": "Benef 3",
+            "iban": "FR7630003001001111111111103",
+            "listes": [
+              {
+                "libelle": "Ma liste"
+              },
+              {
+                "libelle": "TOUS"
+              }
+            ]
+          },
+          {
+            "id": 101304,
+            "libelle": "Benef 4",
+            "iban": "FR7630003001001111111111104",
+            "listes": [
+              {
+                "libelle": "Ma liste"
+              },
+              {
+                "libelle": "TOUS"
+              }
+            ]
+          }
+        ],
+        "comptes": [
+          {
+            "numero": "10106896718",
+            "type": "COMPTE A VUE",
+            "intitule": "CPTE SPECIAL",
+            "intitulePersonnalise": "test COMPTE A VUE - 10106896718",
+            "solde": "0.000000",
+            "devise": 10,
+            "profil": "P",
+            "iban": "FR7630788001001010689671817",
+            "nature": "DAV"
+          },
+          {
+            "numero": "10102346718",
+            "type": "COMPTE A VUE",
+            "intitule": "AZERT SPECIAL",
+            "intitulePersonnalise": "test COMPTE A VUE - 10106896718",
+            "solde": "0.000000",
+            "devise": 10,
+            "profil": "P",
+            "iban": "FR7630788001001010689671897",
+            "nature": "DAV"
+          }
+        ]
+      }
+    ]
+  }
+}

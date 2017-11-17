@@ -1,0 +1,39 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/FR7630788001002504780000352/rib",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      },
+      "coderacine": {
+        "equalTo": "A5R2"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody":
+      {
+        "domiciliation": {
+          "nom": "Banque Neuflize OBC - 00100",
+          "adresse1": "3, avenue Hoche",
+          "adresse2": "75410 Paris Cedex 08",
+          "adresse3": "",
+          "pays": "FRANCE"
+        },
+        "codeBanque": "30788",
+        "codeGuichet": "00100",
+        "numeroCompte": "00000000002",
+        "cleRib": "71",
+        "iban": "FR7630788001002504780000352",
+        "bic": "NSMBFRPPXXX",
+        "titulaire": "JEAN BR",
+        "intitule": "JEAN BR"
+      }
+  }
+}

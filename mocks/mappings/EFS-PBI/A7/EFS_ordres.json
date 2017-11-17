@@ -1,0 +1,65 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/ordres",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A7"
+      },
+      "codesapplications": {
+        "equalTo": "WBSCT3"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody":
+    [  {
+      "id": "WBSCT3_O_590b35dd1f27aca2_0",
+      "compteEmetteur": {
+        "numero": null,
+        "type": null,
+        "intitule": null,
+        "intitulePersonnalise": null,
+        "solde": null,
+        "devise": 0,
+        "profil": null,
+        "iban": "FR7630788001691010720930002",
+        "nature": null
+      },
+      "dateExecutionSouhaitee": "04-05-2017",
+      "codeApplication": "WBSCT3",
+      "statut": 2,
+      "montant": "1500.000000",
+      "codeDevise": "EUR",
+      "dateCreation": "04-05-2017",
+      "media": "U",
+      "codeOperation": ""
+    },  {
+      "id": "WBSCT3_O_58f87d468554d7e8_0",
+      "compteEmetteur": {
+        "numero": null,
+        "type": null,
+        "intitule": null,
+        "intitulePersonnalise": null,
+        "solde": null,
+        "devise": 0,
+        "profil": null,
+        "iban": "FR7630788001691010720930002",
+        "nature": null
+      },
+      "dateExecutionSouhaitee": "20-04-2017",
+      "codeApplication": "WBSCT3",
+      "statut": 2,
+      "montant": "350.000000",
+      "codeDevise": "EUR",
+      "dateCreation": "20-04-2017",
+      "media": "U",
+      "codeOperation": ""
+    }]
+  }
+}

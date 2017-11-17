@@ -1,0 +1,157 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/account-service/api/clients/A6R2/accounts"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": "FR7630788001001134647000793",
+        "accountNumber": "11346470007",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000793"
+      },
+      {
+        "id": "FR7630788001001134647000890",
+        "accountNumber": "11346470008",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000890"
+      },
+      {
+        "id": "FR7630788001001134647000502",
+        "accountNumber": "11346470005",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000502"
+      },
+      {
+        "id": "FR7630788001001134647000696",
+        "accountNumber": "11346470006",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000696"
+      },
+      {
+        "id": "FR7630788001001134647000308",
+        "accountNumber": "11346470003",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000308"
+      },
+      {
+        "id": "FR7630788001001134647001472",
+        "accountNumber": "11346470014",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647001472"
+      },
+      {
+        "id": "FR7630788001001134647000405",
+        "accountNumber": "11346470004",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000405"
+      },
+      {
+        "id": "FR7630788001001134647000114",
+        "accountNumber": "11346470001",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000114"
+      },
+      {
+        "id": "FR7630788001001134647001278",
+        "accountNumber": "11346470012",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647001278"
+      },
+      {
+        "id": "FR7630788001001134647000211",
+        "accountNumber": "11346470002",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000211"
+      },
+      {
+        "id": "FR7630788001001134647001084",
+        "accountNumber": "11346470010",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647001084"
+      },
+      {
+        "id": "FR7630788001001134647001181",
+        "accountNumber": "11346470011",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647001181"
+      },
+      {
+        "id": "FR7630788001001134647000987",
+        "accountNumber": "11346470009",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000987"
+      },
+      {
+        "id": "FR7630788001001134647001375",
+        "accountNumber": "11346470013",
+        "type": "Compte épargne",
+        "typeId": "Epargne",
+        "subtype": "LIV. PRIVILEGE",
+        "subtypeId": "LVP",
+        "iban": "FR7630788001001134647001375"
+      },
+      {
+        "id": "11346470100",
+        "accountNumber": "11346470100",
+        "type": "Portefeuille Titres",
+        "typeId": "PortefeuilleTitres",
+        "subtype": "COMPTE TITRE",
+        "subtypeId": "NON_PEA_NON_GERE"
+      },
+      {
+        "id": "10022777",
+        "accountNumber": "10022777",
+        "type": "Assurance vie",
+        "typeId": "AssuranceVie",
+        "subtype": "Hoche Patrimoine Evolution",
+        "subtypeId": "Interne"
+      }
+    ]
+  }
+}

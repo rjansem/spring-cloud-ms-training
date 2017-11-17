@@ -1,0 +1,51 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/FR7630788001002504780000321/operations",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A2"
+      },
+      "coderacine": {
+        "equalTo": "A2R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "_comment": "//10=EURO ",
+        "devise": 10,
+        "montantDevise": "20.000000",
+        "montantEuro": "20.000000",
+        "dateOperation": "31-10-2016",
+        "dateValeur": "03-11-2014",
+        "libelle": "RACHAT OPCVM                   ",
+        "complements": [
+          {
+            "libelle": ""
+          }
+        ]
+      },
+      {
+        "_comment": "//11=DOLLAR ",
+        "devise": 11,
+        "montantDevise": "9802.000000",
+        "montantEuro": "8802.000000",
+        "dateOperation": "01-11-2014",
+        "dateValeur": "05-11-2014",
+        "libelle": "RACHAT LECLERC                   ",
+        "complements": [
+          {
+            "libelle": " "
+          }
+        ]
+      }
+    ]
+  }
+}

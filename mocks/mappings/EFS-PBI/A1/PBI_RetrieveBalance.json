@@ -1,0 +1,55 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/nobc-api/account-service/v1/clients/8800001/accounts/accounts-balance"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "content": [
+        {
+          "type": "Compte courant",
+          "typeId": "DAV",
+          "subtype": "COMPTE A VUE",
+          "subtypeId": "CAV",
+          "id": "FR7630788001002504780000351",
+          "accountNumber": "00000000001",
+          "iban": "FR7630788001002504780000351",
+          "bookedBalance": 2312.75,
+          "bookedBalanceDate": "2016-11-11T10:47:13.838Z",
+          "bookedBalanceCurrency": "EUR",
+          "creditcardTotalBalance": -14.00,
+          "creditcardTotalBalanceDate": "2016-12-01T10:47:13.838Z",
+          "creditcardTotalCurrency": "EUR",
+          "creditcards": [
+            {
+              "creditcardId": "511",
+              "cardNumber": "1002504780000351",
+              "cardType": "VISA CLASSIC internationale",
+              "cardName": "M REVOL YVES",
+              "cardBalance": -14.00,
+              "cardBalanceDate": "2016-12-01T10:47:13.838Z",
+              "cardCurrency": "EUR",
+              "date": "2017-12-01"
+            }
+          ]
+        },
+        {
+          "type": "Compte épargne",
+          "typeId": "Epargne",
+          "subtype": "PEA",
+          "subtypeId": "PEA",
+          "id": "FR7630788001002504780000353",
+          "accountNumber": "00000000003",
+          "iban": "FR7630788001002504780000353",
+          "bookedBalance": 29000.00,
+          "bookedBalanceDate": "2016-11-11T10:47:13.838Z",
+          "bookedBalanceCurrency": "EUR"
+        }
+      ]
+    }
+  }
+}

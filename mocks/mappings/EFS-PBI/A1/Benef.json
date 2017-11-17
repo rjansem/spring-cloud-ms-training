@@ -1,0 +1,186 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/transactions/beneficiaires",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A1"
+      },
+      "codeapplication": {
+        "equalTo": "WBSCT3"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody":
+      {
+        "tiers": [{
+          "id": 549321,
+          "libelle": "BOSCHLAND",
+          "iban": "DE89370400440532013000",
+          "listes": []
+        }, {
+          "id": 549322,
+          "libelle": "DANEMARK",
+          "iban": "DK3320005499146398",
+          "listes": []
+        }, {
+          "id": 549323,
+          "libelle": "MONACO FR MC",
+          "iban": "FR3312739000700128186000P93",
+          "listes": []
+        }, {
+          "id": 549324,
+          "libelle": "BENEF 26C",
+          "iban": "FR412004110126315941U03322",
+          "listes": []
+        }, {
+          "id": 549325,
+          "libelle": "BENEF FRANCE 3 ",
+          "iban": "FR563078800900203102CV00A07",
+          "listes": []
+        }, {
+          "id": 549326,
+          "libelle": "GUYANE",
+          "iban": "FR7610107001591111111111129",
+          "listes": []
+        }, {
+          "id": 549327,
+          "libelle": "DOM TOM",
+          "iban": "FR7610107001670011067563496",
+          "listes": []
+        }, {
+          "id": 549328,
+          "libelle": "MARTINIQUE",
+          "iban": "FR7610107001843333333333307",
+          "listes": []
+        }, {
+          "id": 549329,
+          "libelle": "FORT DE FRANCE FR FR",
+          "iban": "FR7610107001845555555555569",
+          "listes": []
+        }, {
+          "id": 549330,
+          "libelle": "LA REUNION FR FR",
+          "iban": "FR7610107974001234567891270",
+          "listes": []
+        }, {
+          "id": 549331,
+          "libelle": "LA REUNION",
+          "iban": "FR7610107974009999999999957",
+          "listes": []
+        }, {
+          "id": 549332,
+          "libelle": "MAYOTTE 2",
+          "iban": "FR7610107980012222222222240",
+          "listes": []
+        }, {
+          "id": 549333,
+          "libelle": "WALLIS ET FUTUNA",
+          "iban": "FR7611408069600000000000056",
+          "listes": []
+        }, {
+          "id": 549334,
+          "libelle": "SAINT PIERRE ET MIQUELON",
+          "iban": "FR7611749000010002314670438",
+          "listes": []
+        }, {
+          "id": 549335,
+          "libelle": "POLYNESIE FRANCAISE",
+          "iban": "FR7612149067390000000000084",
+          "listes": []
+        }, {
+          "id": 549336,
+          "libelle": "GUADELOUPE",
+          "iban": "FR7613078001001111111111144",
+          "listes": []
+        }, {
+          "id": 549337,
+          "libelle": "RICHCERT",
+          "iban": "FR7615589351150441119644355",
+          "listes": []
+        }, {
+          "id": 549338,
+          "libelle": "NOUVELLE CALEDONIE",
+          "iban": "FR7617939091120364840011449",
+          "listes": []
+        }, {
+          "id": 549339,
+          "libelle": "BENEF FRANCE 4",
+          "iban": "FR7630003035020005003205964",
+          "listes": []
+        }, {
+          "id": 549340,
+          "libelle": "ENCORE UN POUR LA ROUTE",
+          "iban": "FR7630004001002222222222271",
+          "listes": []
+        }, {
+          "id": 549341,
+          "libelle": "TESTS",
+          "iban": "FR7630004001003333333333305",
+          "listes": []
+        }, {
+          "id": 549342,
+          "libelle": "BENEFICIAIRE RIB TER",
+          "iban": "FR7630004001004444444444436",
+          "listes": []
+        }, {
+          "id": 549343,
+          "libelle": "BENEFICIAIRE RIB",
+          "iban": "FR7630004001005555555555567",
+          "listes": []
+        }, {
+          "id": 549344,
+          "libelle": "1 - AJOUT TIERS CERTIFICAT",
+          "iban": "FR7630788001008888888888830",
+          "listes": []
+        }, {
+          "id": 549345,
+          "libelle": "GRAND BRETON",
+          "iban": "GB95NWBK60720802128772",
+          "listes": []
+        }, {
+          "id": 549346,
+          "libelle": "CROATIE",
+          "iban": "HR4323600003240387028",
+          "listes": []
+        }, {
+          "id": 549347,
+          "libelle": "LITUANIE",
+          "iban": "LT121000011101001000",
+          "listes": []
+        }, {
+          "id": 549348,
+          "libelle": "MONACO NON REG",
+          "iban": "MC1512739000700128186000P93",
+          "listes": []
+        }, {
+          "id": 549349,
+          "libelle": "POLOGNESG",
+          "iban": "PL61109010140000071219812874",
+          "listes": []
+        }, {
+          "id": 549350,
+          "libelle": "ROUMANIE",
+          "iban": "RO53BACX0000000733192002",
+          "listes": []
+        }],
+        "comptes": [{
+          "numero": "08456470001",
+          "type": "LDD",
+          "intitule": "BARONE CAROLINE",
+          "intitulePersonnalise": "",
+          "solde": "",
+          "devise": 10,
+          "profil": "P",
+          "iban": "FR7630788001000845647000143",
+          "nature": "Epargne"
+        }]
+      }
+  }
+}

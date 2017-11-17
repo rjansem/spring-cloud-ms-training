@@ -1,0 +1,51 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/ordres/WBSCT3_O_58501245c5438a1c_0",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      },
+      "codeapplication": {
+        "equalTo": "WBSCT3"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "id": "WBSCT3_O_58501245c5438a1c_0",
+      "compteEmetteur": {
+        "numero": "88888888888",
+        "type": "COMPTE A VUE",
+        "intitule": "Compte A",
+        "intitulePersonnalise": "Mon libelle perso",
+        "solde": "23444334",
+        "devise": 10,
+        "profil": "E",
+        "iban": "FR7630788001008888888888830",
+        "nature": "DAV"
+      },
+      "executionSouhaitee": "01-05-2017",
+      "codeApplication": "WBSCT3",
+      "statut": "4096",
+      "montant": "100.000000",
+      "codeDevise": "EUR",
+      "dateCreation": "13-12-2016",
+      "media": "U",
+      "codeOperation": "INT",
+      "beneficiaires": [
+        {
+          "iban": "FR7630003001001111111111132",
+          "libelle": "Benef 1",
+          "motif": "Loyer",
+          "reference": "SINGLE"
+        }
+      ]
+    }
+  }
+}

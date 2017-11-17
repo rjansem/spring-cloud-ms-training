@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/FR7630788001002504780000352",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "TESTCSA"
+      },
+      "coderacine": {
+        "equalTo": "8800002"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "numero": "00000000001",
+      "type": "COMPTE A VUE",
+      "intitule": "JEAN NOEL",
+      "solde": "300.00",
+      "devise": 10,
+      "iban": "FR7630788001002504780000352",
+      "encoursCartesBancaires": "-1000.00",
+      "dateEncoursCartesBancaires": "23-11-2016",
+      "dateSolde": "23-11-2016"
+    }
+  }
+}

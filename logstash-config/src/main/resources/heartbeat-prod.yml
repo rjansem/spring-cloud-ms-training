@@ -1,0 +1,11 @@
+heartbeat.monitors:
+- type: http
+  schedule: '@every 300s'
+  urls: ["http://microservicea.prod.nobc.client.francenet.fr:8888/health", "https://microservicea.prod.nobc.client.francenet.fr:8761/health", "https://microservicea.prod.nobc.client.francenet.fr:9080/health", "http://microservicea.prod.nobc.client.francenet.fr:8280/health", "http://microservicea.prod.nobc.client.francenet.fr:8380/health", "http://microservicea.prod.nobc.client.francenet.fr:8480/health"]
+  ssl:
+    verification_mode: none
+check.response:
+  status: 200
+#----------------------------- Logstash output --------------------------------
+output.logstash:
+  hosts: ["127.0.0.1:5044"] # IP du serveur de supervision

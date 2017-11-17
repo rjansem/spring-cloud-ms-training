@@ -1,0 +1,37 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/courant",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      },
+      "coderacine": {
+        "equalTo": "A5R2"
+      },
+      "codeprofil": {
+        "equalTo": "P"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "numero": "00000000002",
+        "type": "COMPTE A VUE",
+        "intitule": "TITRE ADMINISTRATEUR",
+        "solde": "1312.75",
+        "devise": 10,
+        "iban": "FR7630788001002504780000352",
+        "encoursCartesBancaires": "100",
+        "dateEncoursCartesBancaires": "11-11-2016"
+      }
+    ]
+  }
+}
+

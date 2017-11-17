@@ -1,0 +1,47 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/assurancesVie/80000001/titres",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A1"
+      },
+      "coderacine": {
+        "equalTo": "A1R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "classe": "FON",
+        "libelle": "ACTIF REGULARITE",
+        "code": "EXT198",
+        "quantite": "2315359.01",
+        "prixRevientMoyen": "",
+        "coursCodeDevise": "EUR",
+        "cours": "88.65",
+        "estimationEuro": "2315359.01",
+        "poids": "6.3",
+        "dateCotation": "31-07-2015"
+      },
+      {
+        "classe": "FON",
+        "libelle": "ACTIF REGULARITE",
+        "code": "EXT199",
+        "quantite": "3315359.01",
+        "prixRevientMoyen": "",
+        "coursCodeDevise": "EUR",
+        "cours": "80.65",
+        "estimationEuro": "2315359.01",
+        "poids": "7.3",
+        "dateCotation": "31-07-2015"
+      }
+    ]
+  }
+}

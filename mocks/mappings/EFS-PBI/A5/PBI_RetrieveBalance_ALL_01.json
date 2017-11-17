@@ -1,0 +1,66 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/nobc-api/account-service/v1/clients/A5R1/accounts/accounts-balance"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "id": "FR7630788001002504780000351",
+        "accountNumber": "00000000001",
+        "iban": "FR7630788001002504780000351",
+        "bookedBalance": 2312.75,
+        "bookedBalanceDate": "11-11-2016",
+        "bookedBalanceCurrency": "EUR",
+        "countervalueBalance": "?",
+        "countervalueDate": "?",
+        "countervalueCurrency":"?",
+        "countervalueRate":"?",
+        "creditcardTotalBalance": "?",
+        "creditcardTotalBalanceDate": "09-11-2016",
+        "creditcardTotalCurrency": "EUR",
+        "creditcards": [
+          {
+            "creditcardId": "511",
+            "cardNumber": "1002504780000351",
+            "cardBalance": -14.000000,
+            "cardBalanceDate": "?",
+            "cardCurrency": "EUR",
+            "date": "01-12-2016"
+          }
+        ]
+      }, {
+        "type": "Compte épargne",
+        "typeId": "Epargne",
+        "subtype": "PEA",
+        "subtypeId": "PEA",
+        "id": "FR7630788001002504780000353",
+        "accountNumber": "00000000003",
+        "iban": "FR7630788001002504780000353",
+        "bookedBalance": 29000.000000,
+        "bookedBalanceDate": "11-11-2016",
+        "bookedBalanceCurrency": "EUR",
+        "countervalueBalance": "?",
+        "countervalueDate": "?",
+        "countervalueCurrency":"?",
+        "countervalueRate":"?",
+        "creditcardTotalBalance": "?",
+        "creditcardTotalBalanceDate": "",
+        "creditcardTotalCurrency": "EUR",
+        "creditcards": [
+          {
+
+          }
+        ]
+      }
+    ]
+  }
+}

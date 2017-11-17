@@ -1,0 +1,227 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/FR7630788001002504780000311/operations",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "TESTCSA"
+      },
+      "coderacine": {
+        "equalTo": "8800001"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "devise": 10,
+        "montantDevise": "20.000000",
+        "montantEuro": "20.000000",
+        "dateOperation": "31-10-2016",
+        "dateValeur": "03-11-2014",
+        "libelle": "VIR SEPA MME EVELYNE REVOL    ",
+        "complements": [
+          {
+            "libelle": "875 (FACTURE: XXXXX8756H5) - P"
+          },
+          {
+            "libelle": "ORANGE"
+          },
+          {
+            "libelle": "VOTRE ABONNEMENT FIXE: 04XXXXX875 (FACTURE: XXXXX8756H5) - P"
+          },
+          {
+            "libelle": "494311875 943118756H583E"
+          },
+          {
+            "libelle": "03640N2201629393900827"
+          },
+          {
+            "libelle": "EUR2000000000096000000000000000"
+          },
+          {
+            "libelle": "M0042983576  RCURF"
+          },
+          {
+            "libelle": "7630788001000876571000171"
+          }
+        ]
+      },
+      {
+        "devise": 10,
+        "montantDevise": "10.000000",
+        "montantEuro": "20.000000",
+        "dateOperation": "31-10-2016",
+        "dateValeur": "03-11-2014",
+        "libelle": "VIR SEPA MME EVELYNE REVOL    ",
+        "complements": [
+          {
+            "libelle": "875 (FACTURE: XXXXX8756H5) - P"
+          },
+          {
+            "libelle": "ORANGE"
+          },
+          {
+            "libelle": "VOTRE ABONNEMENT FIXE: 04XXXXX875 (FACTURE: XXXXX8756H5) - P"
+          },
+          {
+            "libelle": "494311875 943118756H583E"
+          },
+          {
+            "libelle": "03640N2201629393900827"
+          },
+          {
+            "libelle": "EUR2000000000096000000000000000"
+          },
+          {
+            "libelle": "M0042983576  RCURF"
+          },
+          {
+            "libelle": "7630788001000876571000171"
+          }
+        ]
+      },
+      {
+        "devise": 10,
+        "montantDevise": "5.000000",
+        "montantEuro": "20.000000",
+        "dateOperation": "31-10-2016",
+        "dateValeur": "03-11-2014",
+        "libelle": "VIR SEPA MME EVELYNE REVOL    ",
+        "complements": [
+          {
+            "libelle": "875 (FACTURE: XXXXX8756H5) - P"
+          },
+          {
+            "libelle": "ORANGE"
+          },
+          {
+            "libelle": "VOTRE ABONNEMENT FIXE: 04XXXXX875 (FACTURE: XXXXX8756H5) - P"
+          },
+          {
+            "libelle": "494311875 943118756H583E"
+          },
+          {
+            "libelle": "03640N2201629393900827"
+          },
+          {
+            "libelle": "EUR2000000000096000000000000000"
+          },
+          {
+            "libelle": "M0042983576  RCURF"
+          },
+          {
+            "libelle": "7630788001000876571000171"
+          }
+        ]
+      },
+      {
+        "devise": 10,
+        "montantDevise": "20.000000",
+        "montantEuro": "20.000000",
+        "dateOperation": "31-10-2016",
+        "dateValeur": "03-11-2014",
+        "libelle": "VIR SEPA MME EVELYNE REVOL    ",
+        "complements": [
+          {
+            "libelle": "875 (FACTURE: XXXXX8756H5) - P"
+          },
+          {
+            "libelle": "ORANGE"
+          },
+          {
+            "libelle": "VOTRE ABONNEMENT FIXE: 04XXXXX875 (FACTURE: XXXXX8756H5) - P"
+          },
+          {
+            "libelle": "494311875 943118756H583E"
+          },
+          {
+            "libelle": "03640N2201629393900827"
+          },
+          {
+            "libelle": "EUR2000000000096000000000000000"
+          },
+          {
+            "libelle": "M0042983576  RCURF"
+          },
+          {
+            "libelle": "7630788001000876571000171"
+          }
+        ]
+      },
+      {
+        "devise": 10,
+        "montantDevise": "20.000000",
+        "montantEuro": "20.000000",
+        "dateOperation": "31-10-2016",
+        "dateValeur": "03-11-2014",
+        "libelle": "VIR SEPA MME EVELYNE REVOL    ",
+        "complements": [
+          {
+            "libelle": "875 (FACTURE: XXXXX8756H5) - P"
+          },
+          {
+            "libelle": "ORANGE"
+          },
+          {
+            "libelle": "VOTRE ABONNEMENT FIXE: 04XXXXX875 (FACTURE: XXXXX8756H5) - P"
+          },
+          {
+            "libelle": "494311875 943118756H583E"
+          },
+          {
+            "libelle": "03640N2201629393900827"
+          },
+          {
+            "libelle": "EUR2000000000096000000000000000"
+          },
+          {
+            "libelle": "M0042983576  RCURF"
+          },
+          {
+            "libelle": "7630788001000876571000171"
+          }
+        ]
+      },
+      {
+        "devise": 10,
+        "montantDevise": "20.000000",
+        "montantEuro": "20.000000",
+        "dateOperation": "31-10-2016",
+        "dateValeur": "03-11-2014",
+        "libelle": "VIR SEPA MME EVELYNE REVOL    ",
+        "complements": [
+          {
+            "libelle": "875 (FACTURE: XXXXX8756H5) - P"
+          },
+          {
+            "libelle": "ORANGE"
+          },
+          {
+            "libelle": "VOTRE ABONNEMENT FIXE: 04XXXXX875 (FACTURE: XXXXX8756H5) - P"
+          },
+          {
+            "libelle": "494311875 943118756H583E"
+          },
+          {
+            "libelle": "03640N2201629393900827"
+          },
+          {
+            "libelle": "EUR2000000000096000000000000000"
+          },
+          {
+            "libelle": "M0042983576  RCURF"
+          },
+          {
+            "libelle": "7630788001000876571000171"
+          }
+        ]
+      }
+    ]
+  }
+}

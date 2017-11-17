@@ -1,0 +1,80 @@
+server:
+  port: ${port:9080}
+
+hystrix:
+  threadpool:
+    profile-service-v1-0:
+      coreSize: 20
+      maxQueueSize: 1000
+      queueSizeRejectionThreshold: 1000
+    transaction-service-v1-0:
+      coreSize: 20
+      maxQueueSize: 1000
+      queueSizeRejectionThreshold: 1000
+    account-service-v1-0:
+      coreSize: 20
+      maxQueueSize: 1000
+      queueSizeRejectionThreshold: 1000
+    efs-service:
+      coreSize: 40
+      maxQueueSize: 5000
+      queueSizeRejectionThreshold: 5000
+  command:
+    account-service-v1-0:
+      execution:
+        isolation:
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 5000 #2000
+    profile-service-v1-0:
+      ribbon:
+        OkToRetryOnAllOperations: true
+        MaxAutoRetries: 3
+      execution:
+        isolation:
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 10000 #2000
+    transaction-service-v1-0:
+      execution:
+        isolation:
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 4000 #2000
+    efs-service:
+      execution:
+        isolation:
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 2000 #2000
+
+ribbon:
+  ConnectTimeout: 30000
+  readTimeout: 30000
+zuul:
+  prefix: /api
+  sensitiveHeaders:
+  ssl:
+    checkRemoteCertificate: false
+  routes:
+    auth-service:
+      path: /auth-service/**
+      url: ${auth.url:http://localhost:8080}
+      sensitiveHeaders:
+    efs-service:
+      path: /efs-service/**
+      url: ${efs.url:http://localhost:8081}
+      sensitiveHeaders:
+    efs-service-wsauthentication:
+      path: /efs-service-wsauthentication/**
+      url: ${efs.url:http://localhost:8081}
+      sensitiveHeaders:
+  add-proxy-headers: true
+  ribbon:
+    eager-load:
+      enabled: true
+logging:
+  path: c:/tmp
+  level:
+    com.github.rjansem.microservices.training: TRACE
+

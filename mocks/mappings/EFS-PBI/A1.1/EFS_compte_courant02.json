@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/courant",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "TESTCSA"
+      },
+      "coderacine": {
+        "equalTo": "8800002"
+      },
+      "codeprofil": {
+        "equalTo": "P"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "numero": "00000000077",
+        "type": "COMPTE A VUE",
+        "intitule": "JEAN NOEL",
+        "solde": "300.00",
+        "devise": 10,
+        "iban": "FR7630788001002504780000352"
+      }
+    ]
+  }
+}

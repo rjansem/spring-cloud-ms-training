@@ -1,0 +1,36 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/nobc-api/account-service/v1/clients/8800001/accounts/FR7630788001002504780000351/balance?accountType=01&creditcardId=ALL"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "creditcards": [
+        {
+          "creditcardId": "511",
+          "cardNumber": "1002504780000351",
+          "cardType": "VISA CLASSIC internationale",
+          "cardName": "M REVOL YVES",
+          "cardBalance": -14.00,
+          "cardBalanceDate": "2016-12-01T10:47:13.838Z",
+          "cardCurrency": "EUR",
+          "date": "2017-12-01"
+        },
+        {
+          "creditcardId": "512",
+          "cardNumber": "1002504780000351",
+          "cardType": "VISA CLASSIC internationale",
+          "cardName": "M REVOL YVES",
+          "cardBalance": -14.00,
+          "cardBalanceDate": "2016-12-01T10:47:13.838Z",
+          "cardCurrency": "EUR",
+          "date": "2017-12-01"
+        }
+      ]
+    }
+  }
+}

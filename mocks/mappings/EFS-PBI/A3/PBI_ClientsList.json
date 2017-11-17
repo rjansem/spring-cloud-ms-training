@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/clients"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "clients": [
+        {
+          "clientid": "A3R1",
+          "firstname": "",
+          "middleNmae": "",
+          "lastName": "REVOL YVES",
+          "gender": "",
+          "title": "",
+          "mandateFlag": true,
+          "accounts": [
+            {
+              "type": "epargne",
+              "typeId": "",
+              "subtype": "PEA",
+              "sybtypeId": "",
+              "id": "FR7630788001002504780000331",
+              "acountNumber": "00000000001",
+              "iban": "FR7630788001002504780000331"
+            },
+            {
+              "type": "Assurance vie",
+              "typeId": "",
+              "subtype": "Externe",
+              "sybtypeId": "",
+              "id": "",
+              "acountNumber": "80000311",
+              "iban": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

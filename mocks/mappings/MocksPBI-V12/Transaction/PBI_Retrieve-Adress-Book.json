@@ -1,0 +1,37 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/nobc-api/transaction-service/v1/beneficiaries?transferType=SEPA"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "content": [
+        {
+          "id": "101314",
+          "beneficiaryLastName": "REVOL YVES",
+          "accountId": "FR7630788001002504780000351",
+          "accountNumber": "00000000001",
+          "scheme ": "BBAN",
+          "iban": "FR7630788001002504780000351",
+          "balance": 300.00,
+          "balanceCurrency": "EUR",
+          "transactionLimitKbv": 50000.00,
+          "transactionLimitKbvCurrency": "EUR"
+        },
+        {
+          "id": "101315",
+          "beneficiaryLastName": "KARINE LA GOLLOC",
+          "accountId": "FR7630009001001111114211132",
+          "scheme ": "IBAN",
+          "iban": "FR7630009001001111114211132",
+          "transactionLimitKbv": 10000.00,
+          "transactionLimitKbvCurrency": "EUR"
+        }
+      ]
+    }
+  }
+}

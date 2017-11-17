@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/nobc-api/transaction-service/v1/getkeyboard"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+    }
+  }
+}

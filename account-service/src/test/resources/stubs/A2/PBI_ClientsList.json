@@ -1,0 +1,36 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/webank/v1.0/clients"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "clients": [
+        {
+          "clientid": "A1R1",
+          "firstname": "",
+          "middleNmae": "",
+          "lastName": "REVOL YVES",
+          "gender": "",
+          "title": "",
+          "mandateFlag": true,
+          "accounts": [
+            {
+              "type": "courant",
+              "typeId": "",
+              "subtype": "COMPTE A VUE",
+              "sybtypeId": "",
+              "id": "FR7630788001002504780000311",
+              "acountNumber": "00000000001",
+              "iban": "FR7630788001002504780000311"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

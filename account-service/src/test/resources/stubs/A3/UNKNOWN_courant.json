@@ -1,0 +1,31 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/FR7630788001002504780000377/cartesBancaires",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A3"
+      },
+      "coderacine": {
+        "equalTo": "A3R1"
+      }
+    }
+  },
+  "response": {
+    "status": 404,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "cause": "/v1.0/comptes/FR7630788001002504780000377/cartesBancaires",
+      "stackTrace": [],
+      "status": "NOT_FOUND",
+      "message": "compte non rattaché à l'abonné",
+      "errors": [],
+      "localizedMessage": "compte non rattaché à l'abonné",
+      "code": "compte.not.found",
+      "suppressed": []
+    }
+  }
+}

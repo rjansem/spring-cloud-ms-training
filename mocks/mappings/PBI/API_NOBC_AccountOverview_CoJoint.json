@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/clients/0000003/account-overview"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "wealthInformation": {
+        "overallWealth": 3132.46,
+        "overallWealthCurrency": "EUR"
+      },
+      "accountGroups": [
+        {
+          "groupName": "Comptes courants",
+          "groupId": "???",
+          "totalBalance": 3132.46,
+          "totalBalanceDate": "2015-09-20T10:47:13.838Z",
+          "currency": "EUR",
+          "accounts": [
+            {
+              "id": "",
+              "accountNumber": "08607580001",
+              "currency": "EUR",
+              "subtype": "COMPTE A VUE",
+              "subtypeId": "",
+              "type": "Comptes courants",
+              "typeId": "",
+              "availableBalance": 3132.46,
+              "creditcardCount": 2,
+              "creditcardsTotalBalance": 0.00,
+              "creditcardsTotalCurrency": "EUR"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

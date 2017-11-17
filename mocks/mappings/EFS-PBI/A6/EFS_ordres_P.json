@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/ordres",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A6"
+      },
+      "codesapplications": {
+        "equalTo": "WBSCTP"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": "WBSCTP_O_58501245c5438a1c_0",
+        "compteEmetteur": {
+          "numero": "88888888888",
+          "type": "COMPTE A VUE",
+          "intitule": "Compte A",
+          "intitulePersonnalise": "Mon libelle perso",
+          "solde": "",
+          "devise": 10,
+          "profil": "E",
+          "iban": "FR7630788001008888888888830",
+          "nature": "DAV"
+        },
+        "dateExecutionSouhaitee": "03-07-2017",
+        "codeApplication": "WBSCT3",
+        "statut": 1,
+        "montant": "100.000000",
+        "codeDevise": "EUR",
+        "dateCreation": "13-12-2016",
+        "media": "U",
+        "codeOperation": "INT"
+      }
+    ]
+  }
+}

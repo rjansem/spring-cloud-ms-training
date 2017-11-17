@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/services",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "UNKNOWN"
+      }
+    }
+  },
+  "response": {
+    "status": 404,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "cause": "/v1.0/services",
+      "stackTrace": [],
+      "status": "NOT_FOUND",
+      "message": "abonné non trouvé",
+      "errors": [],
+      "localizedMessage": "abonné non trouvé",
+      "code": "user.not.found",
+      "suppressed": []
+    }
+  }
+}

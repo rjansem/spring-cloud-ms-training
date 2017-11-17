@@ -1,0 +1,59 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/nobc-api/account-service/v1/clients/8800001/investments/80000351",
+    "queryParameters": {
+      "investmentType": {
+        "equalTo": "portfolio"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "type": "Portefeuille titres",
+        "typeId": "PortefeuilleTitres",
+        "subtype": "PEA",
+        "subtypeId": "Compte titre PEA",
+        "currency": "EUR",
+        "availableBalance": 0,
+        "bookedBalance": 77468.17,
+        "bookedBalanceDate": "19-07-2015",
+        "associatedAccounts": [
+          {
+            "type": "courant",
+            "typeId": "DAV",
+            "subtype": "COMPTE A VUE",
+            "subtypeId": "CAV",
+            "accountNumber": "00000000001",
+            "id": "FR7630788001002504780000351",
+            "accountBalance": 2312.75,
+            "accountCurrency": "EUR"
+          }
+        ],
+        "assetClassIdentification": [
+          {
+            "assetClass": "Actions",
+            "assetClassId": "ACT",
+            "percentage": 98.84,
+            "assetClassBalance": 76567.4,
+            "assetClassCurrency": "EUR",
+            "positions": [
+              {
+                "positionName": "ULTIMA PEA I 4DEC",
+                "positionBalance": 76567.4,
+                "positionCurrency": "EUR",
+                "positionId": "FR0000422297"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

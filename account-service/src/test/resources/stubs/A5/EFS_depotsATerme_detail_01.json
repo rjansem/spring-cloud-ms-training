@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/depotsATerme/35964",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      },
+      "coderacine": {
+        "equalTo": "A5R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "numero": "35964",
+      "numeroCompte": "25138710002",
+      "montant": "1800000.000000",
+      "devise": 10,
+      "dateDebut": "10-11-2015",
+      "dateFin": "20-11-2015",
+      "tauxNominal": "1.000000",
+      "prelevementLiberatoire": "N",
+      "nomTitulaire": "CAT"
+    }
+  }
+}

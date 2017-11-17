@@ -1,0 +1,83 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/clients/BGTSC/account-overview"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "wealthInformation": {
+        "overallWealth": 1560631.38,
+        "overallWealthCurrency": "EUR"
+      },
+      "accountGroups": [
+        {
+          "groupName": "Comptes courants",
+          "groupId": "G00001",
+          "totalBalance": 58265.37,
+          "totalBalanceDate": "????",
+          "currency": "EUR",
+          "accounts": [
+            {
+              "id": "????",
+              "accountNumber": "08765710001",
+              "currency": "EUR",
+              "type": "COMPTE A VUE",
+              "typeId": "???",
+              "subtype": "???",
+              "subtypeId": "???",
+              "availableBalance": 58265.37,
+              "creditcardCount": 1,
+              "creditcardsTotalBalance": -79.50,
+              "creditcardsTotalCurrency": "EUR"
+            }
+          ]
+        },
+        {
+          "groupName": "Portefeuilles titres",
+          "groupId": "G00001",
+          "totalBalance": 0,
+          "totalBalanceDate": "????",
+          "currency": "EUR",
+          "accounts": [
+            {
+              "id": "???",
+              "accountNumber": "08765710001",
+              "currency": "EUR",
+              "type": "Compte titre non PEA",
+              "typeId": "???",
+              "subtype": "???",
+              "subtypeId": "???",
+              "availableBalance": 0,
+              "bookedBalance": 0,
+              "bookedBalanceDate": ""
+            }
+          ]
+        },
+        {
+          "groupName": "Assurance-vie",
+          "groupId": "???",
+          "totalBalance": 1502366.01,
+          "totalBalanceDate": "????",
+          "currency": "EUR",
+          "accounts": [
+            {
+              "id": "???",
+              "accountNumber": "4102366000",
+              "currency": "EUR",
+              "type": "???",
+              "typeId": "???",
+              "subtype": "???",
+              "subtypeId": "???",
+              "company": "LA MONDIALE EUROPARTNER",
+              "availableBalance": 1502366.01
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

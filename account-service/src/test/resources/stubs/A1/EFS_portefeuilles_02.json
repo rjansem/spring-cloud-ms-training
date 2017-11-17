@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/portefeuillesTitres/01784500601",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A1"
+      },
+      "coderacine": {
+        "equalTo": "A1R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "numero": "01784500600",
+      "type": "PEA",
+      "intitule": "ALONSO ERIC",
+      "typeGestion": "O",
+      "codeDevise": "EUR",
+      "valorisation": "77468.17",
+      "nantissement": "N",
+      "dateValorisation": "19-07-2015",
+      "ibanCompte": "FR7630788001002504780000311"
+    }
+  }
+}

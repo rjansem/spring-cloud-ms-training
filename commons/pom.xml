@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>commons</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>commons</name>
+    <description>Module commun à tous les services</description>
+
+    <modules>
+        <module>commons-apisecurity</module>
+        <module>commons-logging</module>
+        <module>commons-error</module>
+        <module>commons-domain</module>
+        <module>commons-testing</module>
+        <module>commons-cache</module>
+    </modules>
+
+    <parent>
+        <groupId>com.github.rjansem.microservices.training</groupId>
+        <artifactId>training-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+</project>

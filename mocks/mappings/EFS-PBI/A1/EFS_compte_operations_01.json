@@ -1,0 +1,90 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/FR7630788001002504780000311/operations",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A1"
+      },
+      "coderacine": {
+        "equalTo": "A1R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "devise": 10,
+        "montantDevise": "20.000000",
+        "montantEuro": "20.000000",
+        "dateOperation": "31-10-2016",
+        "dateValeur": "03-11-2014",
+        "libelle": "RACHAT OPCVM                   ",
+        "complements": [
+          {
+            "libelle": ""
+          }
+        ]
+      },      {
+        "devise": 10,
+        "montantDevise": "30.000000",
+        "montantEuro": "30.000000",
+        "dateOperation": "31-10-2016",
+        "dateValeur": "03-11-2014",
+        "libelle": "RACHAT OPCVM                   ",
+        "complements": [
+          {
+            "libelle": ""
+          }
+        ]
+      },      {
+        "devise": 10,
+        "montantDevise": "40.000000",
+        "montantEuro": "40.000000",
+        "dateOperation": "31-10-2016",
+        "dateValeur": "03-11-2014",
+        "libelle": "RACHAT OPCVM                   ",
+        "complements": [
+          {
+            "libelle": "info 1"
+          },
+          {
+            "libelle": "info 2"
+          },
+          {
+            "libelle": "info 3"
+          }
+        ]
+      },      {
+        "devise": 10,
+        "montantDevise": "50.000000",
+        "montantEuro": "50.000000",
+        "dateOperation": "31-10-2016",
+        "dateValeur": "03-11-2014",
+        "libelle": "RACHAT OPCVM                   ",
+        "complements": [
+          {
+            "libelle": ""
+          }
+        ]
+      },      {
+        "devise": 10,
+        "montantDevise": "60.000000",
+        "montantEuro": "60.000000",
+        "dateOperation": "31-10-2016",
+        "dateValeur": "03-11-2014",
+        "libelle": "RACHAT OPCVM                   ",
+        "complements": [
+          {
+            "libelle": ""
+          }
+        ]
+      }
+    ]
+  }
+}

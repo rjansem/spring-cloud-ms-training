@@ -1,0 +1,46 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/courant",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A4"
+      },
+      "coderacine": {
+        "equalTo": "A4R1"
+      },
+      "codeprofil": {
+        "equalTo": "P"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "numero": "20158070001",
+        "type": "COMPTE A VUE",
+        "intitule": "DOE CHRISTIAN",
+        "solde": "1512.75",
+        "devise": 10,
+        "iban": "FR7630788001002504780000341",
+        "encoursCartesBancaires": "-1000.000000",
+        "dateEncoursCartesBancaires": "09-11-2016"
+      },
+      {
+        "numero": "00000000002",
+        "type": "COMPTE A VUE",
+        "intitule": "DOE CHRISTIAN",
+        "solde": "12132.75",
+        "devise": 10,
+        "iban": "FR7630788001002504780000342",
+        "encoursCartesBancaires": "1234",
+        "dateEncoursCartesBancaires": "09-11-2016"
+      }
+    ]
+  }
+}

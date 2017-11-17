@@ -1,0 +1,96 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/account-service/api/clients/A6R1/accounts"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": "FR7630788001001134647000502",
+        "accountNumber": "11346470005",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000502"
+      },
+      {
+        "id": "FR7630788001001134647000696",
+        "accountNumber": "11346470006",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000696"
+      },
+      {
+        "id": "FR7630788001001134647000308",
+        "accountNumber": "11346470003",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000308"
+      },
+      {
+        "id": "FR7630788001001134647001472",
+        "accountNumber": "11346470014",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647001472"
+      },
+      {
+        "id": "FR7630788001001134647000405",
+        "accountNumber": "11346470004",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000405"
+      },
+      {
+        "id": "FR7630788001001134647000114",
+        "accountNumber": "11346470001",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000114"
+      },
+      {
+        "id": "FR7630788001001134647001278",
+        "accountNumber": "11346470012",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647001278"
+      },
+      {
+        "id": "FR7630788001001134647000211",
+        "accountNumber": "11346470002",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000211"
+      },
+      {
+        "id": "FR7630788001001134647001084",
+        "accountNumber": "11346470010",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647001084"
+      }
+    ]
+  }
+}

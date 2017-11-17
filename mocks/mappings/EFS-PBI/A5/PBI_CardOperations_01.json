@@ -1,0 +1,60 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/nobc-api/account-service/v1/clients/A5R1/operations",
+    "queryParameters": {
+      "productType": {
+        "equalTo": "CC"
+      },
+      "productId": {
+        "equalTo": "511"
+      },
+      "page": {
+        "equalTo": ""
+      },
+      "size": {
+        "equalTo": ""
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "_links": {
+        "prev":  "",
+        "next": ""
+      },
+      "page": {
+        "size": 0,
+        "totalElements": 0,
+        "totalPages": 0,
+        "number": 0
+      },
+      "content": {
+        "operations": [
+          {
+            "id": "511",
+            "status": "",
+            "accountId": "FR7630788001002504780000351",
+            "creditcardId": "1002504780000351",
+            "creditcardAccountNumber": "",
+            "bookingDateTime": "27-11-2016",
+            "instructedAmount": "",
+            "instructedCurrency": "",
+            "transactionAmount": -14.8000,
+            "transactionCurrency": "EUR",
+            "merchant": "LE PARTHENON",
+            "city": "PARIS 8",
+            "creditDebitIndicator": "",
+            "paymentMode":"",
+            "informationFirst": "   ",
+            "informationSecond": ""
+          }
+        ]
+      }
+    }
+  }
+}

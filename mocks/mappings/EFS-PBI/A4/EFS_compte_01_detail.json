@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/FR7630788001002504780000341",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A4"
+      },
+      "coderacine": {
+        "equalTo": "A4R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "numero": "00000000001",
+        "type": "COMPTE A VUE",
+        "intitule": "DOE CHRISTIAN",
+        "solde": "1512.75",
+        "devise": 10,
+        "iban": "FR7630788001002504780000341",
+        "encoursCartesBancaires": "-393.920000",
+        "dateEncoursCartesBancaires": "11-11-2017",
+        "dateSolde": "11-11-2017"
+      }
+    ]
+  }
+}

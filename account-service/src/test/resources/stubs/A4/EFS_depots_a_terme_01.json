@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/depotsATerme",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A4"
+      },
+      "coderacine": {
+        "equalTo": "A4R1"
+      },
+      "codeprofil": {
+        "equalTo": "P"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+    ]
+  }
+}

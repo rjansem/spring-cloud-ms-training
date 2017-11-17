@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/assurancesVie",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      },
+      "coderacine": {
+        "equalTo": "A5R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "numero": "80000001",
+        "nomAssureur": "LA MONDIALE EUROPARTNER",
+        "intitule": "LIFE MOBILITY EVOLUTION VIE",
+        "premierSouscripteur": "REVOL YVES ",
+        "valorisation": "7257136.56",
+        "type": "Externe",
+        "codeDevise": "EUR"
+      }
+    ]
+  }
+}

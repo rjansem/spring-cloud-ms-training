@@ -1,0 +1,62 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/authentification/moyensSignature",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A1"
+      },
+      "codeapplication": {
+        "equalTo": "WBSCT3"
+      },
+      "codeoperation": {
+        "equalTo": "INT"
+      },
+      "montant": {
+        "equalTo": "2000000.00"
+      },
+      "devise": {
+        "equalTo": "EUR"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "type": "KBV",
+        "niveauSecurite": 0,
+        "alarmes": [
+          {
+            "code": "moyen.plafond.cumule.atteint",
+            "libelle": "montant supérieur au plafond cumulé"
+          }
+        ]
+      },
+      {
+        "type": "CAP",
+        "niveauSecurite": 2,
+        "alarmes": [
+          {
+            "code": "moyen.plafond.cumule.atteint",
+            "libelle": "montant supérieur au plafond cumulé"
+          }
+        ]
+      },
+      {
+        "type": "MOTP",
+        "niveauSecurite": 1,
+        "alarmes": [
+          {
+            "code": "moyen.indisponible",
+            "libelle": "moyen indisponible pour l'application/opération"
+          }
+        ]
+      }
+    ]
+  }
+}

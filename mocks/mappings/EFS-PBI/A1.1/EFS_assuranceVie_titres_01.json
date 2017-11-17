@@ -1,0 +1,35 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/assurancesVie/80000001/titres",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "TESTCSA"
+      },
+      "coderacine": {
+        "equalTo": "8800001"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "classe": "FON",
+        "libelle": "ACTIF REGULARITE",
+        "code": "EXT198",
+        "quantite": "2315359.00",
+        "prixRevientMoyen": "451.15",
+        "coursCodeDevise": "EUR",
+        "cours": "88.65",
+        "estimationEuro": "7257136.56",
+        "poids": "100.00",
+        "dateCotation": "31-07-2015"
+      }
+    ]
+  }
+}

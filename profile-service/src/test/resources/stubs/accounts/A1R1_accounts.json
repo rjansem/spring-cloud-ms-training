@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/account-service/api/clients/A1R1/accounts"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": "FR7630788001002504780000311",
+        "accountNumber": "00000000001",
+        "currency": "EUR",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "availableBalance": 1512.75,
+        "bookedBalance": 0,
+        "bookedBalanceDate": "2015-11-10T10:47:13.838Z",
+        "creditcardCount": 1,
+        "creditcardsTotalBalance": -3208.00,
+        "creditcardsTotalCurrency": "EUR"
+      },
+      {
+        "id": "FR7630788001002015807000275",
+        "accountNumber": "00000000002",
+        "currency": "EUR",
+        "type": "Epargne",
+        "typeId": "EPARGNE",
+        "subtype": "PEA GERE",
+        "subtypeId": "PAG",
+        "availableBalance": 0,
+        "bookedBalance": 2528987.69,
+        "bookedBalanceDate": "2015-09-20T10:47:13.838Z"
+      }
+    ]
+  }
+}

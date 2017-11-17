@@ -1,0 +1,35 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/nobc-api/account-service/v1/clients/8800001/investments/80000001/positions/EXT198",
+    "queryParameters": {
+      "investmentType": {
+        "equalTo": "AssuranceVie"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "accountNumber": "80000001",
+      "subtype": "Assurance vie externe",
+      "subtypeId": "Externe",
+      "company": "LA MONDIALE EUROPARTNER",
+      "positionValue": "ACTIF REGULARITE",
+      "positionValueCode": "EXT198",
+      "amount": 2315359.00,
+      "returnOnInvestment": 451.15,
+      "returnOnInvestmentCurrency": "EUR",
+      "rate": 88.65,
+      "rateCurrency": "EUR",
+      "estimation": 2315359.00,
+      "estimationCurrency": "EUR",
+      "percentage": 100.00,
+      "date": "2015-31-07"
+    }
+  }
+}

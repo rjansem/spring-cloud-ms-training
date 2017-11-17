@@ -1,0 +1,46 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/nobc-api/account-service/v1/clients/8800001/investments/80000001",
+    "queryParameters": {
+      "investmentType": {
+        "equalTo": "AssuranceVie"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "type": "Assurance vie",
+      "typeId": "AssuranceVie",
+      "subtype": "Assurance vie externe",
+      "subtypeId": "externe",
+      "currency": "EUR",
+      "company": "LA MONDIALE EUROPARTNER",
+      "bookedBalance": 7257136.56,
+      "bookedBalanceDate": "2016-01-19",
+      "assetClassIdentification": [
+        {
+          "assetClass": "Fonds en Euro",
+          "assetClassId": "FON",
+          "percentage": 100.00,
+          "assetClassBalance": 7257136.56,
+          "assetClassCurrency": "EUR",
+          "positions": [
+            {
+              "positionName": "ACTIF REGULARITE",
+              "positionBalance": 7257136.56,
+              "positionCurrency": "EUR",
+              "positionId": "EXT198",
+              "percentage": 100.00
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/epargne",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      },
+      "coderacine": {
+        "equalTo": "A5R1"
+      },
+      "codeprofil": {
+        "equalTo": "P"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "numero": "00000000003",
+        "type": "PEA",
+        "intitule": "Mon PEA",
+        "solde": 900.770000,
+        "solde_valeur": 265124.540000,
+        "devise": 10,
+        "iban": "FR7630788001002504780000353",
+        "encoursCartesBancaires": "",
+        "dateEncoursCartesBancaires": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/services",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": 2,
+        "libelle": "consultations",
+        "login": "A5",
+        "profil": "comptes-e",
+        "data": null
+      },
+      {
+        "id": 4,
+        "libelle": "transactions",
+        "login": "A5",
+        "profil": "webank-e",
+        "data": null
+      }
+    ]
+  }
+}

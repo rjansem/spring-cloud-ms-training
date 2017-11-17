@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/transactions/comptesEmetteurs",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A7"
+      },
+      "codeapplication": {
+        "equalTo": "WBSCT3"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "numero": "10106896718",
+        "type": "COMPTEVUE",
+        "intitule": "CPTE SPECIAL",
+        "intitulePersonnalise": "test COMPTE A VUE - 10106896718",
+        "solde": "10000.000000",
+        "devise": 10,
+        "profil": "P",
+        "iban": "FR7630788001001010689671817",
+        "nature": "DAV"
+      },
+      {
+        "numero": "10106896719",
+        "type": "COMPTE NANTI GERE",
+        "intitule": "CPTE SPECIAL",
+        "intitulePersonnalise": "test COMPTE A VUE - 10106896719",
+        "solde": "20000.000000",
+        "devise": 10,
+        "profil": "P",
+        "iban": "FR7630788001001010689671999",
+        "nature": "DAV"
+      }
+    ]
+  }
+}

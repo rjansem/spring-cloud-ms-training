@@ -1,0 +1,78 @@
+server:
+  port: ${port:8280}
+spring:
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false
+  hateoas:
+    use-hal-as-default-json-media-type: false
+security:
+  basic:
+    enabled: false
+services:
+  profile-service:
+    version: v1-0
+api:
+  docs:
+    title: Account service REST API
+    description: Documentation de l'API REST exposée par le service de gestion des comptes
+    version: 1.0
+    termsOfServiceUrl: https://github.com/rjansem/spring-cloud-ms-training
+    license: © 2017 rjansem
+    licenseUrl: https://github.com
+
+hystrix:
+  threadpool:
+    efs-service:
+      coreSize: 40
+      maxQueueSize: 5000
+      queueSizeRejectionThreshold: 5000
+  command:
+    efs-service:
+      execution:
+        isolation:
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 2000
+
+business:
+  operations:
+    defaultPageSize: 20
+redis:
+  caches:
+    - name: comptesCourantsCache
+      expiry: 900
+    - name: comptesEpargnesCache
+      expiry: 900
+    - name: depotsATermeCache
+      expiry: 900
+    - name: portfoliosCache
+      expiry: 900
+    - name: asvCache
+      expiry: 900
+    - name: loanCache
+      expiry: 900
+    - name: bulocCache
+      expiry: 900
+    - name: devisesCache
+      expiry: 900
+logging:
+  path: c:/tmp
+  level:
+    com.github.rjansem.microservices.training: TRACE
+
+---
+spring:
+  profiles: dev
+security:
+  oauth2:
+    client:
+      client-id: efs
+      client-secret: efssecret
+    resource:
+      jwt:
+        keyValue: |
+          -----BEGIN PUBLIC KEY-----
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnXAnwPOR4iFT2Sff8HvNl3Hu8w7+ffk/Fem6SyUeEI0J2URaciZO394y0dCPG6+W6yJQ867Ilus4EnHgz4+IHmOf0hX9Jf6ITPGaCrW+UCQAm9ELrLfJXiZPN2hraKAn6lErDoDsVTcO1NHfU3TnkpgMDaz6IrUUTU9tz0LtJCvTT+ic5TRataX3VxQpT0klos0vJpvrn0wgY5F8qLmBkW6QGVnWD08hxQfMc0IcINQqLyI9IOcqIPIPA3ikNqRKoDxTl1moJpI+oywwr8eMlARdrR9mD3HzHAfio5+pnNSIC9SmEdhXeHIuSPtYTiVwwqhk8+E+tOQaCa59YBN/DwIDAQAB
+          -----END PUBLIC KEY-----
+

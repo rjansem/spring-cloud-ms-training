@@ -1,0 +1,128 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/racines",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A6"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "code": "A6R1",
+        "libelle": "REVOL YVES",
+        "titulaire": "O",
+        "dematerialisation": "N",
+        "droitDematerialisation": "O",
+        "droitEdocuments": "O",
+        "droitCredits": "N",
+        "profil": "P",
+        "type": "",
+        "poids": 3
+      },
+      {
+        "code": "A6R2",
+        "libelle": "REVOL YVES",
+        "titulaire": "O",
+        "dematerialisation": "N",
+        "droitDematerialisation": "O",
+        "droitEdocuments": "O",
+        "droitCredits": "N",
+        "profil": "P",
+        "type": "",
+        "poids": 3
+      },
+      {
+        "code": "A6R3",
+        "libelle": "REVOL YVES",
+        "titulaire": "O",
+        "dematerialisation": "N",
+        "droitDematerialisation": "O",
+        "droitEdocuments": "O",
+        "droitCredits": "N",
+        "profil": "P",
+        "type": "",
+        "poids": 3
+      },
+      {
+        "code": "A6R4",
+        "libelle": "YVES",
+        "titulaire": "O",
+        "dematerialisation": "N",
+        "droitDematerialisation": "O",
+        "droitEdocuments": "O",
+        "droitCredits": "N",
+        "profil": "P",
+        "type": "",
+        "poids": 3
+      },
+      {
+        "code": "A6R5",
+        "libelle": "TITI",
+        "titulaire": "O",
+        "dematerialisation": "N",
+        "droitDematerialisation": "O",
+        "droitEdocuments": "O",
+        "droitCredits": "N",
+        "profil": "P",
+        "type": "",
+        "poids": 3
+      },
+      {
+        "code": "A6R6",
+        "libelle": "AB",
+        "titulaire": "N",
+        "dematerialisation": "N",
+        "droitDematerialisation": "O",
+        "droitEdocuments": "O",
+        "droitCredits": "N",
+        "profil": "P",
+        "type": "",
+        "poids": 3
+      },
+      {
+        "code": "A6R7",
+        "libelle": "NEEL PHILIPPE",
+        "titulaire": "N",
+        "dematerialisation": "N",
+        "droitDematerialisation": "O",
+        "droitEdocuments": "O",
+        "droitCredits": "N",
+        "profil": "P",
+        "type": "",
+        "poids": 3
+      },
+      {
+        "code": "A6R9",
+        "libelle": "NEEL PPPE",
+        "titulaire": "N",
+        "dematerialisation": "N",
+        "droitDematerialisation": "O",
+        "droitEdocuments": "O",
+        "droitCredits": "N",
+        "profil": "P",
+        "type": "",
+        "poids": 3
+      },
+      {
+        "code": "A6R8",
+        "libelle": "NEEL PHILIPPE",
+        "titulaire": "N",
+        "dematerialisation": "N",
+        "droitDematerialisation": "O",
+        "droitEdocuments": "O",
+        "droitCredits": "N",
+        "profil": "P",
+        "type": "",
+        "poids": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/webank/v1.0/transactions",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{\"loginWebAbonne\":\"A5\",\"nbDecimales\":\"2\",\"codeApplication\":\"WBSCT3\",\"ibanCompteEmetteur\":\"FR7630788001002504780000351\",\"ibanCompteBeneficiaire\":\"FR7630009001001111114211132\",\"idTiersBeneficiaire\":\"FR7630009001001111114211132\",\"montant\":\"200.00\",\"dateExecutionSouhaitee\":\"2016-12-14T10:21:15.223Z\",\"motif\":\"Merci mon ami\",\"reference\":\"SINGLE\",\"devise\":\"EUR\"}"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "idOrdre": "WBSCT3_O_58501245c5438a1c_0"
+    }
+  }
+}

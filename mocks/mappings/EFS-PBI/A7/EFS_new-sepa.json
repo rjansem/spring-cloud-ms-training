@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/webank/v1.0/ordres/WBSCT3_99/kbv/signe",
+    "bodyPatterns" : [{
+      "equalToJson" : "{      \"loginWebAbonne\": \"EV360578\",      \"nbDecimales\": \"2\",      \"codeApplication\": \"WBSCT3\",\"ibanCompteEmetteur\": \"FR7630788001001010409630004\",      \"ibanCompteBeneficiaire\": \"FR7630003034400005021090881\",      \"montant\": \"1.00\",      \"dateExecutionSouhaitee\": \"25042017\",      \"motif\": null,      \"reference\": \"SINGLE\",\"devise\": \"10\"}"
+    }]
+  },
+  "response": {
+    "status": 204,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+
+    }
+  }
+}

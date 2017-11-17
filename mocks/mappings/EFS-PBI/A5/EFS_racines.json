@@ -1,0 +1,46 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/racines",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "code": "A5R1",
+        "libelle": "REVOL YVES",
+        "titulaire": "N",
+        "dematerialisation": "N",
+        "droitDematerialisation": "O",
+        "droitEdocuments": "O",
+        "droitCredits": "N",
+        "profil": "",
+        "type": "",
+        "poids": 3
+
+      },
+      {
+        "code": "A5R2",
+        "libelle": "NEEL PHILIPPE",
+        "titulaire": "N",
+        "dematerialisation": "N",
+        "droitDematerialisation": "O",
+        "droitEdocuments": "O",
+        "droitCredits": "N",
+        "profil": "",
+        "type": "",
+        "poids": 1
+
+      }
+    ]
+  }
+}

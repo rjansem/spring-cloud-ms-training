@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/FR7630788001002504780000342/cartesBancaires",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A4"
+      },
+      "coderacine": {
+        "equalTo": "A4R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+    ]
+  }
+}

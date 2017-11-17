@@ -1,0 +1,30 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/cartesBancaires/511/operations",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A6"
+      },
+      "coderacine": {
+        "equalTo": "8800001"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "dateAchat": "27-11-2016",
+        "nomCommercant": "LE PARTHENON",
+        "lieuAchat": "PARIS 8",
+        "montant": "-14.800000",
+        "codeDevise": "EUR"
+      }
+    ]
+  }
+}

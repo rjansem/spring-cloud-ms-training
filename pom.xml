@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <name>nobc-api</name>
+    <description>Couche d'intermédiation entre l'API Gateway et EFS basée sur une architecture microservices</description>
+
+    <groupId>com.github.rjansem.microservices.training</groupId>
+    <artifactId>training-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <scm>
+        <url>https://h3-integration.gwin.fr.eu.abnamro.com/gitlab/nobc-api/nobc-api-microservices</url>
+        <connection>scm:git:https://h3-integration.gwin.fr.eu.abnamro.com/gitlab/nobc-api/nobc-api-microservices.git</connection>
+        <developerConnection>scm:git:https://h3-integration.gwin.fr.eu.abnamro.com/gitlab/nobc-api/nobc-api-microservices.git</developerConnection>
+      <tag>HEAD</tag>
+  </scm>
+
+    <repositories>
+        <repository>
+            <id>nobc-public</id>
+            <name>NOBC public libraries</name>
+            <url>https://h3-integration.gwin.fr.eu.abnamro.com/artifactory/libs-release</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    
+    <pluginRepositories>
+        <pluginRepository>
+            <id>nobc-public</id>
+            <name>NOBC public libraries</name>
+            <url>https://h3-integration.gwin.fr.eu.abnamro.com/artifactory/libs-release</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <distributionManagement>
+        <repository>
+            <id>libs-release-local</id>
+            <name>NOBC Releases</name>
+            <url>https://h3-integration.gwin.fr.eu.abnamro.com/artifactory/libs-release-local</url>
+            <layout>maven-2-default</layout>
+        </repository>
+        <snapshotRepository>
+            <id>libs-snapshot-local</id>
+            <name>NOBC Snapshots</name>
+            <url>https://h3-integration.gwin.fr.eu.abnamro.com/artifactory/libs-snapshot-local</url>
+            <layout>maven-2-default</layout>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <java.version>1.8</java.version>
+
+        <maven-release-plugin.version>2.4.2</maven-release-plugin.version>
+        <maven-scm-provider-gitexe.version>1.8.1</maven-scm-provider-gitexe.version>
+
+        <spring-boot.version>1.5.1.RELEASE</spring-boot.version>
+        <spring-cloud.version>Camden.SR5</spring-cloud.version>
+        <commons-lang3.version>3.5</commons-lang3.version>
+        <jackson.version>2.8.5</jackson.version>
+        <springfox-swagger2.version>2.6.1</springfox-swagger2.version>
+        <rxjava.version>1.2.4</rxjava.version>
+    </properties>
+
+    <modules>
+        <module>commons</module>
+        <module>config-server</module>
+        <module>registry-server</module>
+        <module>gateway</module>
+        <module>dashboard-hystrix</module>
+        <module>dashboard-zipkin</module>
+        <module>account-service</module>
+        <module>profile-service</module>
+        <module>transaction-service</module>
+        <module>logstash-config</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>io.reactivex</groupId>
+                <artifactId>rxjava</artifactId>
+                <version>${rxjava.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jsr310</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${springfox-swagger2.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${springfox-swagger2.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>repackage</goal>
+                            </goals>
+                            <configuration>
+                                <finalName>${project.artifactId}</finalName>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>${maven-release-plugin.version}</version>
+                    <configuration>
+                        <tagNameFormat>v@{project.version}</tagNameFormat>
+                    </configuration>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.apache.maven.scm</groupId>
+                            <artifactId>maven-scm-provider-gitexe</artifactId>
+                            <version>${maven-scm-provider-gitexe.version}</version>
+                        </dependency>
+                    </dependencies>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+</project>

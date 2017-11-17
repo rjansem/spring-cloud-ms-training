@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/portefeuillesTitres/80000351/titres",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "TESTCSA"
+      },
+      "coderacine": {
+        "equalTo": "8800001"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "classe": "ACT",
+        "code": "FR0000422297",
+        "libelle": "ULTIMA PEA I 4DEC",
+        "quantite": "140.0",
+        "prixRevientMoyen": "451.75",
+        "estimationEuro": "76567.4",
+        "poids": "98.84",
+        "dateCotation": "31-07-2015",
+        "codeDevise": "EUR"
+      },
+      {
+        "classe": "ACT",
+        "code": "FR0000422298",
+        "libelle": "TOTAL",
+        "quantite": "666",
+        "prixRevientMoyen": "666",
+        "estimationEuro": "900.77",
+        "poids": "1.16",
+        "dateCotation": "31-07-2015",
+        "codeDevise": "EUR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/ordres",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A2"
+      },
+      "codesapplications": {
+        "equalTo": "WBVE"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": []
+  }
+}

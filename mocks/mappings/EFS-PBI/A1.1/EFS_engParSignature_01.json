@@ -1,0 +1,30 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/engagementsParSignature",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "TESTCSA"
+      },
+      "coderacine": {
+        "equalTo": "8800001"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "numero": "24532",
+        "nature": "AUTRES GARANTIES FINANCIERES",
+        "maturite": "15-06-2016",
+        "capitalRestantDu": "121747.000000",
+        "codeDevise": "EUR"
+      }
+    ]
+  }
+}

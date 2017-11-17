@@ -1,0 +1,4 @@
+-Dans Kibana aller dans Management
+-Cliquer sur Import
+-Selectionner le fichier kibana.json présent dans le dossier kibana-dashboards
+-Cliquer sur ouvrir

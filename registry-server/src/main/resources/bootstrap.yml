@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: registry-server
+  cloud:
+    config:
+      uri: ${config.uri:http://localhost:8888}
+      fail-fast: true

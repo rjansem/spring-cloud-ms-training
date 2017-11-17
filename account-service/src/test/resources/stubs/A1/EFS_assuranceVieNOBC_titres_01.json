@@ -1,0 +1,47 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/assurancesVieNOBC/10001090/titres",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A1"
+      },
+      "coderacine": {
+        "equalTo": "A1R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "classe": "ACTIONS",
+        "libelle": "AA MMF FOM NORTH AMERICAN EQ",
+        "code": "LU0321538950",
+        "quantite": "467.0000000",
+        "prixRevientMoyen": "67.7300000",
+        "coursCodeDevise": "EUR",
+        "cours": "88.6500000",
+        "estimationEuro": "41399.5500000",
+        "poids": "6.3500000",
+        "dateCotation": "20-02-2015"
+      },
+      {
+        "classe": "ACTIONS",
+        "libelle": "BB MMF FOM NORTH AMERICAN EQ",
+        "code": "LU0321538955",
+        "quantite": "467.0000000",
+        "prixRevientMoyen": "67.7300000",
+        "coursCodeDevise": "EUR",
+        "cours": "88.6500000",
+        "estimationEuro": "41399.5500000",
+        "poids": "6.3500000",
+        "dateCotation": "20-02-2015"
+      }
+    ]
+  }
+}

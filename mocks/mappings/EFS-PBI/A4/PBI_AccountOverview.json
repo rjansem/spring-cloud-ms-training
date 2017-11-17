@@ -1,0 +1,137 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/clients/A4R1/account-overview"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "wealthInformation": {
+        "overallWealth": 0.00,
+        "overallWealthCurrency": "EUR"
+      },
+      "accountGroups": [
+        {
+          "groupName": "Comptes courants & d'épargne",
+          "groupId": "DAVEPARGNE",
+          "totalBalance": 0,
+          "currency": "EUR",
+          "accounts": [
+            {
+              "id": "FR7630788001002504780000341",
+              "accountNumber": "00000000001",
+              "currency": "EUR",
+              "type": "courant",
+              "typeId": "",
+              "subtype": "COMPTE A VUE",
+              "sybtypeId": "",
+              "subtypeId": " ",
+              "company": "",
+              "availableBalance": 0,
+              "bookedBalance": 0,
+              "bookedBalanceDate": "",
+              "date": "",
+              "nextWriteOffAmount": "",
+              "nextWriteOffCurrency": "",
+              "creditcardCount": 0,
+              "creditcardsTotalBalance": 0.00,
+              "creditcardsTotalCurrency": ""
+            },
+            {
+              "id": "FR7630788001002504780000342",
+              "accountNumber": "00000000002",
+              "currency": "DOL",
+              "type": "courant",
+              "typeId": "",
+              "subtype": "COMPTE A VUE",
+              "sybtypeId": "",
+              "subtypeId": " ",
+              "company": "",
+              "availableBalance": 0,
+              "bookedBalance": 0,
+              "bookedBalanceDate": "",
+              "date": "",
+              "nextWriteOffAmount": "",
+              "nextWriteOffCurrency": "",
+              "creditcardCount": 0,
+              "creditcardsTotalBalance": 0.00,
+              "creditcardsTotalCurrency": ""
+            },
+            {
+              "id": "FR7630788001002504780000343",
+              "accountNumber": "00000000003",
+              "currency": "EUR",
+              "type": "epargne",
+              "typeId": "",
+              "subtype": "PEA",
+              "sybtypeId": "",
+              "subtypeId": " ",
+              "company": "",
+              "availableBalance": 0,
+              "bookedBalance": 0,
+              "bookedBalanceDate": "",
+              "date": "",
+              "nextWriteOffAmount": "",
+              "nextWriteOffCurrency": "",
+              "creditcardCount": 0,
+              "creditcardsTotalBalance": 0.00,
+              "creditcardsTotalCurrency": ""
+            }
+          ]
+        },
+        {
+          "groupName": "Investissements",
+          "groupId": "INV",
+          "totalBalance": 0.00,
+          "totalBalanceDate": "",
+          "currency": "",
+          "accounts": [
+            {
+              "id": "",
+              "accountNumber": "80000341",
+              "currency": "EUR",
+              "type": "portefeuille",
+              "typeId": "",
+              "subtype": "PEA",
+              "sybtypeId": "",
+              "subtypeId": " ",
+              "company": "",
+              "availableBalance": 0,
+              "bookedBalance": 77468.17,
+              "bookedBalanceDate": "",
+              "date": "",
+              "nextWriteOffAmount": "",
+              "nextWriteOffCurrency": "",
+              "creditcardCount": 0,
+              "creditcardsTotalBalance": 0.00,
+              "creditcardsTotalCurrency": ""
+            },
+            {
+              "id": "",
+              "accountNumber": "80000341",
+              "currency": "EUR",
+              "type": "assurance vie",
+              "typeId": "",
+              "subtype": "externe",
+              "sybtypeId": "",
+              "subtypeId": " ",
+              "company": "GENERALI FRANCE VIE",
+              "availableBalance": 0,
+              "bookedBalance": 2327136.56,
+              "bookedBalanceDate": "",
+              "date": "",
+              "nextWriteOffAmount": "",
+              "nextWriteOffCurrency": "",
+              "creditcardCount": 0,
+              "creditcardsTotalBalance": 0.00,
+              "creditcardsTotalCurrency": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

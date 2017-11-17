@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/account-service/api/clients/A6R4/accounts"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": "FR7630788001001134647000211",
+        "accountNumber": "11346470002",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647000211"
+      },
+      {
+        "id": "FR7630788001001134647001084",
+        "accountNumber": "11346470010",
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "iban": "FR7630788001001134647001084"
+      }
+    ]
+  }
+}

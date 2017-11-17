@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="account-service" />
+        <module name="commons-apisecurity" />
+        <module name="commons-cache" />
+        <module name="commons-domain" />
+        <module name="commons-error" />
+        <module name="commons-logging" />
+        <module name="commons-testing" />
+        <module name="config-server" />
+        <module name="dashboard-hystrix" />
+        <module name="dashboard-zipkin" />
+        <module name="gateway" />
+        <module name="logstash-config" />
+        <module name="profile-service" />
+        <module name="registry-server" />
+        <module name="transaction-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account-service" target="1.8" />
+      <module name="api-parent" target="1.8" />
+      <module name="commons" target="1.8" />
+      <module name="commons-apisecurity" target="1.8" />
+      <module name="commons-cache" target="1.8" />
+      <module name="commons-domain" target="1.8" />
+      <module name="commons-error" target="1.8" />
+      <module name="commons-logging" target="1.8" />
+      <module name="commons-testing" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="dashboard-hystrix" target="1.8" />
+      <module name="dashboard-zipkin" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="logstash-config" target="1.8" />
+      <module name="profile-service" target="1.8" />
+      <module name="registry-server" target="1.8" />
+      <module name="training-parent" target="1.8" />
+      <module name="transaction-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,38 @@
+efs:
+  gateway:
+    url: ${efs.gateway.uri:http://localhost:9080/nobc-api/efs-service}
+auth:
+  gateway:
+    url: ${auth.gateway.uri:http://localhost:9080/nobc-api/auth-service}
+efswsauthentication:
+  gateway:
+    url: ${efswsauthentication.gateway.uri:http://localhost:9080/nobc-api/efs-service-wsauthentication}
+business:
+  links:
+    externalBaseUrl: http://localhost:9080
+
+hystrix:
+  command:
+    default:
+      ribbon:
+        ConnectTimeout: 30000
+        readTimeout: 30000
+        OkToRetryOnAllOperations: true
+        MaxAutoRetries: 3
+      execution:
+        isolation:
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 10000
+spring:
+  cloud:
+    stream:
+      bindings:
+        hystrixStreamOutput:
+          destination: hystrix.exchange
+          contentType: application/json
+          group: hystrixGroup
+        turbineStreamInput:
+          destination: hystrix.exchange
+          group: hystrixGroup
+

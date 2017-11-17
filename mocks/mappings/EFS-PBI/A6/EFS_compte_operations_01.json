@@ -1,0 +1,36 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/FR7630788001002504780000351/operations",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A6"
+      },
+      "coderacine": {
+        "equalTo": "8800001"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "devise": 10,
+        "montantDevise": "20.000000",
+        "montantEuro": "20.000000",
+        "dateOperation": "31-10-2016",
+        "dateValeur": "03-11-2016",
+        "libelle": "VIR SEPA MME EVELYNE REVOL                  ",
+        "complements": [
+          {
+            "libelle": ""
+          }
+        ]
+      }
+    ]
+  }
+}

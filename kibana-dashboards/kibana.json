@@ -1,0 +1,453 @@
+[
+  {
+    "_id": "ca3b91f0-3009-11e7-a7b8-59a96b80548a",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Dashboard test",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"f455d6a0-3007-11e7-948e-bf4ed6d58a61\",\"panelIndex\":1,\"row\":5,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"db702180-3008-11e7-8183-b5620a90223e\",\"panelIndex\":2,\"row\":14,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"9f527670-3009-11e7-bd7b-49c2b41af5d6\",\"panelIndex\":4,\"row\":1,\"size_x\":8,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"b202db20-3009-11e7-8e7b-3b50d144a737\",\"panelIndex\":6,\"row\":8,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"62263700-3009-11e7-8183-b5620a90223e\",\"panelIndex\":7,\"row\":5,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":10,\"id\":\"81d3cdb0-3009-11e7-bc00-5b6c2f0e6e8a\",\"panelIndex\":8,\"row\":5,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"4aa55e80-3009-11e7-8183-b5620a90223e\",\"panelIndex\":9,\"row\":3,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"f6575680-3008-11e7-8183-b5620a90223e\",\"panelIndex\":10,\"row\":1,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"e67d3220-309e-11e7-8f6f-01c083dee262\",\"panelIndex\":11,\"row\":11,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":4,\"id\":\"79b4ffb0-30ad-11e7-be8c-fd3e4360a877\",\"panelIndex\":12,\"row\":14,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":10,\"id\":\"3bd59ce0-30ad-11e7-be8c-fd3e4360a877\",\"panelIndex\":13,\"row\":14,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"c5d4adc0-30ab-11e7-be8c-fd3e4360a877\",\"panelIndex\":14,\"row\":14,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"39fa9180-3622-11e7-b2dc-27a360cb52f7\",\"panelIndex\":15,\"row\":11,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"f0522e00-30de-11e7-9912-8fd9e0a724a4\",\"panelIndex\":16,\"row\":23,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"f05fdfa0-362e-11e7-9aad-5d3b6d53e85b\",\"panelIndex\":17,\"row\":20,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"0a15e170-364c-11e7-9aad-5d3b6d53e85b\",\"panelIndex\":18,\"row\":23,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":10,\"id\":\"c3c4abb0-364c-11e7-9aad-5d3b6d53e85b\",\"panelIndex\":19,\"row\":8,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"babf4b50-364d-11e7-9aad-5d3b6d53e85b\",\"panelIndex\":20,\"row\":20,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"deb86700-3650-11e7-9aad-5d3b6d53e85b\",\"panelIndex\":21,\"row\":26,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":10,\"id\":\"5ec10e80-3655-11e7-9aad-5d3b6d53e85b\",\"panelIndex\":22,\"row\":20,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":3,\"id\":\"590e4c90-396c-11e7-9aad-5d3b6d53e85b\",\"panelIndex\":23,\"row\":1,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"38d2e2e0-396e-11e7-9aad-5d3b6d53e85b\",\"panelIndex\":24,\"row\":17,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"7fc8c7a0-396e-11e7-9aad-5d3b6d53e85b\",\"panelIndex\":25,\"row\":17,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"cbb91230-3975-11e7-9aad-5d3b6d53e85b\",\"panelIndex\":26,\"row\":29,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"20622d30-3b10-11e7-a0b4-95ef285bb12a\",\"panelIndex\":27,\"row\":8,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":3,\"id\":\"8ecd1940-3ba8-11e7-8c31-b3f92fc60fc5\",\"panelIndex\":28,\"row\":3,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-15\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}},\"vis\":{\"legendOpen\":false}},\"P-17\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-26\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-4\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}},\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "f6575680-3008-11e7-8183-b5620a90223e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Utilisateurs uniques",
+      "visState": "{\"title\":\"Utilisateurs uniques\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"username.keyword\",\"customLabel\":\"Utilisateurs uniques\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e573df10-3007-11e7-948e-bf4ed6d58a61",
+    "_type": "visualization",
+    "_source": {
+      "title": "Nombre de connexions moyennes par utilisateur",
+      "visState": "{\"title\":\"Nombre de connexions moyennes par utilisateur\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(operation:TokenInfo).divide(.es(operation:TokenInfo, metric=cardinality:username))\",\"interval\":\"1M\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b202db20-3009-11e7-8e7b-3b50d144a737",
+    "_type": "visualization",
+    "_source": {
+      "title": "Nombre de transactions abandonnées",
+      "visState": "{\"title\":\"Nombre de transactions abandonnées\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(operation:NewTransfer).subtract(.es(operation:SignByVkb))\",\"interval\":\"auto\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f455d6a0-3007-11e7-948e-bf4ed6d58a61",
+    "_type": "visualization",
+    "_source": {
+      "title": "Comparaison transaction initiées/signées",
+      "visState": "{\"title\":\"Comparaison transaction initiées/signées\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(operation:SignByVkb), .es(operation:NewTransfer)\",\"interval\":\"1d\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e67d3220-309e-11e7-8f6f-01c083dee262",
+    "_type": "visualization",
+    "_source": {
+      "title": "Ratio transactions",
+      "visState": "{\"title\":\"Ratio transactions\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(operation:SignByVkb).divide(.es(operation:NewTransfer)).multiply(100)\",\"interval\":\"1d\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a490e3c0-3008-11e7-8183-b5620a90223e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Nombre de connexions journalières",
+      "visState": "{\"title\":\"Nombre de connexions journalières\",\"type\":\"area\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"interpolate\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Connexions jounalières\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Jour\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:TokenInfo\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "c5d4adc0-30ab-11e7-be8c-fd3e4360a877",
+    "_type": "visualization",
+    "_source": {
+      "title": "Part des transactions internes/externes",
+      "visState": "{\n  \"title\": \"Part des transactions internes/externes\",\n  \"type\": \"pie\",\n  \"params\": {\n    \"addLegend\": true,\n    \"addTooltip\": true,\n    \"isDonut\": true,\n    \"legendPosition\": \"right\"\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"internal.keyword\",\n        \"size\": 2,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\",\n        \"customLabel\": \"\"\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{\n  \"vis\": {\n    \"legendOpen\": true\n  }\n}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"api-microservices-*\",\n  \"query\": {\n    \"query_string\": {\n      \"analyze_wildcard\": true,\n      \"query\": \"operation:NewTransfer\"\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "79b4ffb0-30ad-11e7-be8c-fd3e4360a877",
+    "_type": "visualization",
+    "_source": {
+      "title": "Transaction : devise",
+      "visState": "{\"title\":\"Transaction : devise\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"currency.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:NewTransfer\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "4aa55e80-3009-11e7-8183-b5620a90223e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Utilisateurs actifs depuis 3 derniers mois",
+      "visState": "{\"title\":\"Utilisateurs actifs depuis 3 derniers mois\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"username.keyword\",\"customLabel\":\"Utilisateurs actifs 3 derniers mois\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"@timestamp:[now-3M/M TO now]\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "39fa9180-3622-11e7-b2dc-27a360cb52f7",
+    "_type": "visualization",
+    "_source": {
+      "title": "Montant moyen des transactions",
+      "visState": "{\"title\":\"Montant moyen des transactions\",\"type\":\"line\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"},\"valueAxis\":null},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{\"text\":\"Temps\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Montant moyen des transactions\"}}],\"seriesParams\":[{\"show\":true,\"mode\":\"normal\",\"type\":\"line\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\",\"lineWidth\":3,\"data\":{\"id\":\"1\",\"label\":\"Montant moyen des transactions\"},\"valueAxis\":\"ValueAxis-1\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"totalAmount\",\"customLabel\":\"Montant moyen des transactions\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Temps\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8f5c7330-3561-11e7-9912-8fd9e0a724a4",
+    "_type": "visualization",
+    "_source": {
+      "title": "Nombre de transactions signées mensuelles",
+      "visState": "{\"title\":\"Nombre de transactions signées mensuelles\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":4,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":false,\"rotate\":0,\"color\":\"#555\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Mois\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"M\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Transactions signées\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 8\":\"rgb(247,252,245)\",\"8 - 15\":\"rgb(199,233,192)\",\"15 - 23\":\"rgb(116,196,118)\",\"23 - 30\":\"rgb(35,139,69)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:SignByVkb\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3bd59ce0-30ad-11e7-be8c-fd3e4360a877",
+    "_type": "visualization",
+    "_source": {
+      "title": "Transaction : montant en fonction du type",
+      "visState": "{\"title\":\"Transaction : montant en fonction du type\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"internal.keyword\",\"size\":2,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"totalAmount\",\"ranges\":[{\"from\":0,\"to\":200},{\"from\":200,\"to\":400},{\"from\":400,\"to\":600},{\"from\":600,\"to\":800},{\"from\":800,\"to\":null}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:NewTransfer\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "62263700-3009-11e7-8183-b5620a90223e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Nombre de transactions initiées",
+      "visState": "{\"title\":\"Nombre de transactions initiées\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Transactions initiées\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:NewTransfer\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "81d3cdb0-3009-11e7-bc00-5b6c2f0e6e8a",
+    "_type": "visualization",
+    "_source": {
+      "title": "Nombre de transactions signées",
+      "visState": "{\"title\":\"Nombre de transactions signées\",\"type\":\"metric\",\"params\":{\"fontSize\":60,\"handleNoResults\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Transactions signées\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:SignByVkb\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "0a15e170-364c-11e7-9aad-5d3b6d53e85b",
+    "_type": "visualization",
+    "_source": {
+      "title": "Transaction overview pages visitées",
+      "visState": "{\"title\":\"Transaction overview pages visitées\",\"type\":\"histogram\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":200},\"position\":\"left\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"radiusRatio\":9,\"scale\":\"linear\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Nombre de pages\"},\"drawLinesBetweenPoints\":true,\"mode\":\"normal\",\"show\":true,\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"setYExtents\":false,\"showCircles\":true,\"times\":[],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":true,\"rotate\":75,\"show\":true,\"truncate\":100},\"name\":\"BottomAxis-1\",\"position\":\"bottom\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Nombre de pages\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Nombre de pages\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"group\",\"params\":{\"field\":\"page\",\"ranges\":[{\"from\":1,\"to\":2},{\"from\":2,\"to\":3},{\"from\":3,\"to\":4},{\"from\":4,\"to\":5},{\"from\":5,\"to\":null}],\"customLabel\":\"\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"service:transaction AND operation:overview\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "9f527670-3009-11e7-bd7b-49c2b41af5d6",
+    "_type": "visualization",
+    "_source": {
+      "title": "Nombre de connexions",
+      "visState": "{\"title\":\"Nombre de connexions\",\"type\":\"area\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Temps\"},\"type\":\"category\"}],\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"mode\":\"stacked\",\"radiusRatio\":9,\"scale\":\"linear\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Nombre de connexions\"},\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"mode\":\"normal\",\"show\":\"true\",\"showCircles\":true,\"type\":\"area\",\"valueAxis\":\"ValueAxis-1\"}],\"setYExtents\":false,\"showCircles\":true,\"times\":[],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Nombre de connexions\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Nombre de connexions\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Temps\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:TokenInfo\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "deb86700-3650-11e7-9aad-5d3b6d53e85b",
+    "_type": "visualization",
+    "_source": {
+      "title": "VKB dimensions",
+      "visState": "{\"title\":\"VKB dimensions\",\"type\":\"histogram\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":200},\"position\":\"left\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"dim.keyword: Descending\"},\"type\":\"category\"}],\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"radiusRatio\":9,\"scale\":\"linear\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Dimensions\"},\"drawLinesBetweenPoints\":true,\"mode\":\"normal\",\"show\":true,\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"setYExtents\":false,\"showCircles\":true,\"times\":[],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":true,\"rotate\":75,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"bottom\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Dimensions\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Dimensions\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"dim.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:VKB\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f05fdfa0-362e-11e7-9aad-5d3b6d53e85b",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top utilisateurs transactions signées",
+      "visState": "{\"title\":\"Top utilisateurs transactions signées\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Transactions signées\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"username.keyword\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Utilisateurs\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:SignByVkb\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "babf4b50-364d-11e7-9aad-5d3b6d53e85b",
+    "_type": "visualization",
+    "_source": {
+      "title": "Transaction Overview page et size",
+      "visState": "{\"title\":\"Transaction Overview page et size\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"page\",\"ranges\":[{\"from\":1,\"to\":2},{\"from\":2,\"to\":3},{\"from\":3,\"to\":4},{\"from\":4,\"to\":5},{\"from\":5}]}},{\"id\":\"3\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"pageSize\",\"ranges\":[{\"from\":0,\"to\":10},{\"from\":10,\"to\":20},{\"from\":20,\"to\":30},{\"from\":30}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"service:transaction AND operation:overview\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "db702180-3008-11e7-8183-b5620a90223e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Montant transactions",
+      "visState": "{\"title\":\"Montant transactions\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"totalAmount\",\"ranges\":[{\"from\":0,\"to\":200},{\"from\":200,\"to\":400},{\"from\":400,\"to\":600},{\"from\":600,\"to\":800},{\"from\":800,\"to\":1000},{\"from\":1000,\"to\":null}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "c3c4abb0-364c-11e7-9aad-5d3b6d53e85b",
+    "_type": "visualization",
+    "_source": {
+      "title": "Transaction refusées dépassant le plafond",
+      "visState": "{\"title\":\"Transaction refusées dépassant le plafond\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Transactions refusées dépassant le plafond\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:NewTransferError\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "38d2e2e0-396e-11e7-9aad-5d3b6d53e85b",
+    "_type": "visualization",
+    "_source": {
+      "title": "Montant moyen des transactions internes",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{\"customLabel\":\"Montant moyen\",\"field\":\"totalAmount\"},\"schema\":\"metric\",\"type\":\"avg\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customInterval\":\"2h\",\"customLabel\":\"Temps\",\"extended_bounds\":{},\"field\":\"@timestamp\",\"interval\":\"auto\",\"min_doc_count\":1},\"schema\":\"segment\",\"type\":\"date_histogram\"}],\"listeners\":{},\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Temps\"},\"type\":\"category\"}],\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"radiusRatio\":9,\"scale\":\"linear\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Montant moyen\"},\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"area\",\"valueAxis\":\"ValueAxis-1\"}],\"setYExtents\":false,\"showCircles\":true,\"times\":[],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Montant moyen\"},\"type\":\"value\"}]},\"title\":\"Montant moyen des transactions internes\",\"type\":\"area\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:NewTransfer AND internal:Interne\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "7fc8c7a0-396e-11e7-9aad-5d3b6d53e85b",
+    "_type": "visualization",
+    "_source": {
+      "title": "Montant moyen des transactions externes",
+      "visState": "{\"title\":\"Montant moyen des transactions externes\",\"type\":\"area\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Temps\"},\"type\":\"category\"}],\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"radiusRatio\":9,\"scale\":\"linear\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Montant moyen\"},\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"area\",\"valueAxis\":\"ValueAxis-1\"}],\"setYExtents\":false,\"showCircles\":true,\"times\":[],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Montant moyen\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"totalAmount\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:NewTransfer AND internal:Externe\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "cbb91230-3975-11e7-9aad-5d3b6d53e85b",
+    "_type": "visualization",
+    "_source": {
+      "title": "Nombre de connexions par utilisateurs",
+      "visState": "{\"title\":\"Nombre de connexions par utilisateurs\",\"type\":\"table\",\"params\":{\"perPage\":100,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"json\":\"\",\"customLabel\":\"Connexions\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"username.keyword\",\"size\":100000000,\"order\":\"desc\",\"orderBy\":\"1\",\"json\":\"\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"spy\":{\"mode\":{\"fill\":false,\"name\":\"request\"}},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"operation:TokenInfo\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "5ec10e80-3655-11e7-9aad-5d3b6d53e85b",
+    "_type": "visualization",
+    "_source": {
+      "title": "Account Operations page et size",
+      "visState": "{\"title\":\"Account Operations page et size\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"page\",\"ranges\":[{\"from\":1,\"to\":2},{\"from\":2,\"to\":3},{\"from\":3,\"to\":4},{\"from\":4,\"to\":5},{\"from\":5}]}},{\"id\":\"3\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"pageSize\",\"ranges\":[{\"from\":0,\"to\":10},{\"from\":10,\"to\":20},{\"from\":20,\"to\":30},{\"from\":30}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"service:Account AND operation:Operations\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f0522e00-30de-11e7-9912-8fd9e0a724a4",
+    "_type": "visualization",
+    "_source": {
+      "title": "Operations cloud",
+      "visState": "{\"title\":\"Operations cloud\",\"type\":\"tagcloud\",\"params\":{\"scale\":\"linear\",\"orientation\":\"single\",\"minFontSize\":26,\"maxFontSize\":80,\"hideLabel\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"operation.keyword\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "590e4c90-396c-11e7-9aad-5d3b6d53e85b",
+    "_type": "visualization",
+    "_source": {
+      "title": "Nombre de connexions moyennes",
+      "visState": "{\"title\":\"Nombre de connexions moyennes\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Connexion(s)\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"operation:TokenInfo\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "20622d30-3b10-11e7-a0b4-95ef285bb12a",
+    "_type": "visualization",
+    "_source": {
+      "title": "Erreurs lors de l'initiation d'une transaction",
+      "visState": "{\"title\":\"Erreurs lors de l'initiation d'une transaction\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Erreurs lors de l'initiation d'une transaction\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:TransactionError\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8ecd1940-3ba8-11e7-8c31-b3f92fc60fc5",
+    "_type": "visualization",
+    "_source": {
+      "title": "Nombre de connexions sans EV920979 et PUJOCAP1",
+      "visState": "{\"title\":\"Nombre de connexions sans EV920979 et PUJOCAP1\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Connexion(s) sans EV920979 et PUJOCAP1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:TokenInfo AND NOT username:EV920979 AND NOT username:PUJOCAP1\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f70963b0-51ce-11e7-91fe-4d19bf998172",
+    "_type": "visualization",
+    "_source": {
+      "title": "Nombre de transactions signées sans PUJOCAP1",
+      "visState": "{\"title\":\"Nombre de transactions signées sans PUJOCAP1\",\"type\":\"metric\",\"params\":{\"fontSize\":60,\"handleNoResults\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Transactions signées\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:SignByVkb AND NOT username:PUJOCAP1\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "0964ca90-51cf-11e7-91fe-4d19bf998172",
+    "_type": "visualization",
+    "_source": {
+      "title": "Nombre de transactions initiées sans PUJOCAP1",
+      "visState": "{\"title\":\"Nombre de transactions initiées sans PUJOCAP1\",\"type\":\"metric\",\"params\":{\"fontSize\":60,\"handleNoResults\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Transactions signées\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"api-microservices-*\",\"query\":{\"query_string\":{\"query\":\"operation:NewTransfer AND NOT username:PUJOCAP1\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  }
+]

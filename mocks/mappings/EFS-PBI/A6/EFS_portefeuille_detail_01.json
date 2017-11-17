@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/portefeuillesTitres/80000351",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A6"
+      },
+      "coderacine": {
+        "equalTo": "8800001"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "numero": "80000351",
+        "type": "PEA",
+        "intitule": "ALONSO ERIC",
+        "typeGestion": "O",
+        "codeDevise": "EUR",
+        "valorisation": "77468.17",
+        "nantissement": "N",
+        "dateValorisation": "19-07-2015",
+        "ibanCompte": "FR7630788001002504780000351"
+      }
+    ]
+  }
+}

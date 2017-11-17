@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/FR7630788001002504780000351/cartesBancaires",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "TESTCSA"
+      },
+      "coderacine": {
+        "equalTo": "8800001"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": 111,
+        "numero": "00000000001",
+        "titulaire": "REVOL YVES",
+        "encours": "-1000.00",
+        "dateExpiration": "28-02-2017",
+        "type": "VISA CLASSIC internationale",
+        "_comment": "10=EURO",
+        "devise": 10
+      }
+    ]
+  }
+}

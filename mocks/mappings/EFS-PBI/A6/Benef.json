@@ -1,0 +1,103 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/transactions/beneficiaires",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A6"
+      },
+      "codeapplication": {
+        "equalTo": "WBSCT3"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "tiers": [],
+      "comptes": [
+        {
+          "numero": "08607580001",
+          "type": "COMPTE A VUE",
+          "intitule": "INTITULE 101",
+          "intitulePersonnalise": "",
+          "solde": "-66918.580000",
+          "devise": 10,
+          "profil": "P",
+          "iban": "FR7630788001000860758000128",
+          "nature": "DAV"
+        },
+        {
+          "numero": "08765710001",
+          "type": "COMPTE A VUE",
+          "intitule": "INTITULE 105",
+          "intitulePersonnalise": "",
+          "solde": "6034.920000",
+          "devise": 10,
+          "profil": "P",
+          "iban": "FR7630788001000876571000171",
+          "nature": "DAV"
+        },
+        {
+          "numero": "20158070001",
+          "type": "COMPTE A VUE",
+          "intitule": "INTITULE 109",
+          "intitulePersonnalise": "",
+          "solde": "-1609.530000",
+          "devise": 10,
+          "profil": "P",
+          "iban": "FR7630788001002015807000178",
+          "nature": "DAV"
+        },
+        {
+          "numero": "20158070003",
+          "type": "LIV. PRIVILEGE",
+          "intitule": "INTITULE 114",
+          "intitulePersonnalise": "",
+          "solde": "2642.910000",
+          "devise": 10,
+          "profil": "P",
+          "iban": "FR7630788001002015807000372",
+          "nature": "Epargne"
+        },
+        {
+          "numero": "20158070004",
+          "type": "PEA PME",
+          "intitule": "INTITULE 118",
+          "intitulePersonnalise": "",
+          "solde": "151.500000",
+          "devise": 10,
+          "profil": "P",
+          "iban": "FR7630788001002015807000469",
+          "nature": "Epargne"
+        },
+        {
+          "numero": "20158070002",
+          "type": "PEA GERE",
+          "intitule": "INTITULE 113",
+          "intitulePersonnalise": "",
+          "solde": "2524194.250000",
+          "devise": 10,
+          "profil": "P",
+          "iban": "FR7630788001002015807000275",
+          "nature": "Epargne"
+        },
+        {
+          "numero": "61173840001",
+          "type": "COMPTE A VUE",
+          "intitule": "INTITULE 122",
+          "intitulePersonnalise": "",
+          "solde": "-35795.420000",
+          "devise": 10,
+          "profil": "P",
+          "iban": "FR7630788001006117384000171",
+          "nature": "DAV"
+        }
+      ]
+    }
+  }
+}

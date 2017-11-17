@@ -1,0 +1,30 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/credits",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A6"
+      },
+      "coderacine": {
+        "equalTo": "8800001"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "numero": "0023514",
+        "nature": "CREDIT DE TRESORERIE",
+        "maturite": "31-12-2021",
+        "capitalRestantDu": "1800000.000000",
+        "codeDevise": "EUR"
+      }
+    ]
+  }
+}

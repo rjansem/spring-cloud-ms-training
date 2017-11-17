@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/racines",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "0001"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 50,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "code": "0000002",
+        "libelle": "JOHN DOE",
+        "titulaire": "O",
+        "dematerialisation": "O",
+        "droitDematerialisation": "O",
+        "droitEdocuments": "O",
+        "droitCredits": "O",
+        "profil": "P",
+        "type": "",
+        "poids": 3
+      }
+    ]
+  }
+}

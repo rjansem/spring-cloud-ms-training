@@ -1,0 +1,44 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/nobc-api/account-service/v1/clients/A5R2/rib"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "type": "compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "id": "FR7630788001002504780000352",
+        "accountNumber": "00000000002",
+        "iban": "FR7630788001002504780000352",
+        "bic": "NSMBFRPPXXX",
+        "BankName": "Banque Neuflize OBC - 00100",
+        "bankAddress": "3, avenue Hoche, 75410 Paris Cedex 08",
+        "clientFirstName": "",
+        "clientMiddleName": "",
+        "clientLastName": "DOE CHRISTIAN"
+        },{
+        "type": "Compte épargne",
+        "typeId": "Epargne",
+        "subtype": "PEL",
+        "subtypeId": "PEL",
+        "id": "FR7630788001002504780000354",
+        "accountNumber": "00000000004",
+        "iban": "FR7630788001002504780000354",
+        "bic": "NSMBFRPPXXX",
+        "BankName": "Banque Neuflize OBC - 00100",
+        "bankAddress": "3, avenue Hoche, 75410 Paris Cedex 08",
+        "clientFirstName": "",
+        "clientMiddleName": "",
+        "clientLastName": "DOE CHRISTIAN"
+      }
+    ]
+  }
+}

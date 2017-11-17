@@ -1,0 +1,55 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/transactions/beneficiaires",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A7"
+      },
+      "codeapplication": {
+        "equalTo": "WBSCT3"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "tiers": [{
+        "id": 304133,
+        "libelle": "PPU",
+        "iban": "FR7610278063180002045500174",
+        "listes": []
+      }, {
+        "id": 562357,
+        "libelle": "1 - AJOUT TIERS M OTP",
+        "iban": "FR7630788001008888888888830",
+        "listes": []
+      }],
+      "comptes": [ {
+        "numero": "10107209344",
+        "type": "COMPTES ESPECES",
+        "intitule": "ECHAVIDRE MR OU MME LUC E",
+        "intitulePersonnalise": "",
+        "solde": "0.000000",
+        "devise": 10,
+        "profil": "E",
+        "iban": "FR7630788001691010720934464",
+        "nature": "DAV"
+      }, {
+        "numero": "10107209355",
+        "type": "CSL",
+        "intitule": "ECHAVIDRE MR OU MME LUC E",
+        "intitulePersonnalise": "",
+        "solde": "12.000000",
+        "devise": 10,
+        "profil": "P",
+        "iban": "FR7630788001691010720934355",
+        "nature": "DAV"
+      }]
+    }
+  }
+}

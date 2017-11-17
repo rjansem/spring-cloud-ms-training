@@ -1,0 +1,37 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/credits/0023514",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      },
+      "coderacine": {
+        "equalTo": "A5R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "numero": "0023514",
+      "nature": "CREDIT DE TRESORERIE",
+      "maturite": "31-12-2021",
+      "capitalRestantDu": "1800000.000000",
+      "codeDevise": "EUR",
+      "dateDebut": "30-12-2014",
+      "emprunteur": "b mandat pujocert -0000006-",
+      "montantEmprunte": "2000000.000000",
+      "taux": "EURI3M +   1,30",
+      "modeAmortissement": "MODE D'AMORTISSEMENT SPECIALE",
+      "frequenceAmortissement": "ANNUELLE",
+      "dateProchaineEcheance": "31-03-2016",
+      "montantProchaineEcheance": "5915.000000",
+      "typePrelevement": "ECHEANCE INTERETS"
+    }
+  }
+}

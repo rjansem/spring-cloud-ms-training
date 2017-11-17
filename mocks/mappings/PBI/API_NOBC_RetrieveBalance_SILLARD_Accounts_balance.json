@@ -1,0 +1,59 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/clients/2512980/accounts-balance"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "type": "Compte courant",
+        "typeId": "DAV",
+        "subtype": "COMPTE A VUE",
+        "subtypeId": "CAV",
+        "id": "FR7630788001002015807000178",
+        "accountNumber": "20158070001",
+        "iban": "FR7630788001002015807000178",
+        "balance": -8895.80,
+        "balanceDate": "2015-09-21T10:47:13.838Z",
+        "currency": "EUR",
+        "creditcardTotalBalance": -3208.00,
+        "creditcardTotalBalanceDate": "2016-10-23T10:47:13.838Z",
+        "creditcardTotalCurrency": "EUR",
+        "creditcards": [
+          {
+            "creditcardId": "126067",
+            "cardNumber": "456290XXXXXX9218",
+            "cardBalance": -3208.00,
+            "cardBalanceDate": "2016-09-23T10:47:13.838Z",
+            "cardCurrency": "EUR",
+            "date": "2017-10-31"
+          },
+          {
+            "creditcardId": "126349",
+            "cardNumber": "497955XXXXXX7956",
+            "cardBalance": 0.00,
+            "cardBalanceDate": "2015-09-23T10:47:13.838Z",
+            "cardCurrency": "EUR",
+            "date": "2019-02-11"
+          }
+        ]
+      },
+      {
+        "id": "FR7630788001002015807000469",
+        "type": "Epargne",
+        "typeId": "Epargne",
+        "subtype": "PEA PME",
+        "subtypeId": "PPE",
+        "accountNumber": "20158070004",
+        "iban": "FR7630788001002015807000469",
+        "balance": 150.00,
+        "balanceDate": "2015-09-20T10:47:13.838Z",
+        "currency": "EUR"
+      }
+    ]
+  }
+}

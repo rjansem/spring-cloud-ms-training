@@ -1,0 +1,47 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/ordres/WBSCT3_O_590edf79085e090b_0",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A7"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody":
+    {
+      "id": "WBSCT3_O_590edf79085e090b_0",
+      "compteEmetteur": {
+        "numero": "88888888888",
+        "type": "COMPTE A VUE",
+        "intitule": "TEST FLORENT VIAL LIBELLE",
+        "intitulePersonnalise": "",
+        "solde": "",
+        "devise": 10,
+        "profil": "E",
+        "iban": "FR7630788001008888888888830",
+        "nature": "DAV"
+      },
+      "dateExecutionSouhaitee": "11-05-2017",
+      "codeApplication": "WBSCT3",
+      "statut": 2,
+      "montant": "25000.000000",
+      "codeDevise": "EUR",
+      "dateCreation": "11-05-2017",
+      "media": "U",
+      "codeOperation": "INT",
+      "beneficiaires": [{
+        "iban": "FR7630788001001010716040006",
+        "libelle": "NADAL CHRISTIAN",
+        "motif": "",
+        "reference": "SINGLE"
+      }]
+    }
+  }
+}

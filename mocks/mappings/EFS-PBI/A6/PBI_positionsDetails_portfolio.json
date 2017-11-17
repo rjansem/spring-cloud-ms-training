@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/nobc-api/account-service/v1/clients/8800001/investments/80000351/positions/FR0000422297",
+    "queryParameters": {
+      "investmentType": {
+        "equalTo": "portfolio"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "accountNumber": "80000351",
+        "subtype": "PEA",
+        "subtypeId": "Compte titre PEA",
+        "positionValue": "ULTIMA PEA I 4DEC",
+        "positionValueCode": "FR0000422297",
+        "amount": 140.00,
+        "returnOnInvestment": 451.75,
+        "returnOnInvestmentCurrency": "EUR",
+        "estimation": 76567.50,
+        "estimationCurrency": "EUR",
+        "percentage": 98.50,
+        "date": "2015-07-31"
+      }
+    ]
+  }
+}

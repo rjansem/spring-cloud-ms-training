@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/wsauthentication2/authentication/kbvlogin/generate/"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "text/html"
+    },
+    "body": "<!DOCTYPE html>    <html> <head><title>Page Title</title>    </head>    <body>    <h1>TEST</h1>   <p>test VKB.</p> </body> </html>"
+  }
+}

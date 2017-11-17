@@ -1,0 +1,71 @@
+server:
+  port: ${port:8380}
+spring:
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false
+security:
+  basic:
+    enabled: false
+
+services:
+  account-service:
+    version: v1-0
+hystrix:
+  threadpool:
+    efs-service:
+      coreSize: 32
+      maxQueueSize: 200
+      queueSizeRejectionThreshold: 200
+    account-service-v1-0:
+      coreSize: 50
+      maxQueueSize: 500
+      queueSizeRejectionThreshold: 500
+  command:
+    account-service-v1-0:
+      execution:
+        isolation:
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 5000 #2000
+    efs-service:
+      execution:
+        isolation:
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 2000 #2000
+
+api:
+  docs:
+    title: Profile service REST API
+    description: Documentation de l'API REST exposée par le service de gestion des profils utilisateurs
+    version: 1.0
+    termsOfServiceUrl: https://github.com/rjansem/spring-cloud-ms-training
+    license: © 2017 rjansem
+    licenseUrl: https://github.com
+redis:
+  caches:
+    - name: racinesCache
+      expiry: 30
+    - name: rolesCache
+      expiry: 30
+logging:
+  path: c:/tmp
+  level:
+    com.github.rjansem.microservices.training: TRACE
+
+---
+spring:
+  profiles: dev
+security:
+  oauth2:
+    client:
+      client-id: efs
+      client-secret: efssecret
+    resource:
+      jwt:
+        keyValue: |
+          -----BEGIN PUBLIC KEY-----
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnXAnwPOR4iFT2Sff8HvNl3Hu8w7+ffk/Fem6SyUeEI0J2URaciZO394y0dCPG6+W6yJQ867Ilus4EnHgz4+IHmOf0hX9Jf6ITPGaCrW+UCQAm9ELrLfJXiZPN2hraKAn6lErDoDsVTcO1NHfU3TnkpgMDaz6IrUUTU9tz0LtJCvTT+ic5TRataX3VxQpT0klos0vJpvrn0wgY5F8qLmBkW6QGVnWD08hxQfMc0IcINQqLyI9IOcqIPIPA3ikNqRKoDxTl1moJpI+oywwr8eMlARdrR9mD3HzHAfio5+pnNSIC9SmEdhXeHIuSPtYTiVwwqhk8+E+tOQaCa59YBN/DwIDAQAB
+          -----END PUBLIC KEY-----
+

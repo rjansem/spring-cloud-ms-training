@@ -1,0 +1,38 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/comptes/epargne",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "0001"
+      },
+      "coderacine": {
+        "equalTo": ""
+      },
+      "codeprofil": {
+        "equalTo": ""
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": "FR7630788001002015807000275",
+        "accountNumber": "20158070002",
+        "currency": "EUR",
+        "type": "Compte epargne",
+        "typeId": "EPARGNE",
+        "subtype": "PEA GERE",
+        "subtypeId": "PAG",
+        "availableBalance": 0,
+        "bookedBalance": 2528987.69,
+        "bookedBalanceDate": "2015-09-20T10:47:13.838Z"
+      }
+    ]
+  }
+}

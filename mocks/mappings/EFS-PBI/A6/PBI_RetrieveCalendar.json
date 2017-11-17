@@ -1,0 +1,116 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/nobc-api/v1/calendar",
+    "queryParameters": {
+      "start": {
+        "equalTo": "2016-10-01"
+      },
+      "end": {
+        "equalTo": "2017-10-01"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "businessMonths": [
+          {
+            "year": "2016",
+            "month": "11",
+            "weeks": [
+              {
+                "days": [
+                  {
+                    "dayOfMonth": 11,
+                    "dayOfWeek": 5,
+                    "currentBusinessDay": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": "2016",
+            "month": "12",
+            "weeks": [
+              {
+                "days": [
+                  {
+                    "dayOfMonth": 25,
+                    "dayOfWeek": 7,
+                    "currentBusinessDay": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "month": "01",
+            "weeks": [
+              {
+                "days": [
+                  {
+                    "dayOfMonth": 1,
+                    "dayOfWeek": 7,
+                    "currentBusinessDay": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "month": "04",
+            "weeks": [
+              {
+                "days": [
+                  {
+                    "dayOfMonth": 17,
+                    "dayOfWeek": 1,
+                    "currentBusinessDay": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "month": "05",
+            "weeks": [
+              {
+                "days": [
+                  {
+                    "dayOfMonth": 1,
+                    "dayOfWeek": 1,
+                    "currentBusinessDay": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "month": "05",
+            "weeks": [
+              {
+                "days": [
+                  {
+                    "dayOfMonth": 8,
+                    "dayOfWeek": 1,
+                    "currentBusinessDay": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

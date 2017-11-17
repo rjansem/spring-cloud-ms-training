@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/FR7630788001002504780000353",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      },
+      "coderacine": {
+        "equalTo": "A5R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody":
+      {
+        "numero": "00000000003",
+        "type": "PEA",
+        "intitule": "Mon PEA",
+        "solde": 29000.000000,
+        "devise": 10,
+        "iban": "FR7630788001002504780000353",
+        "encoursCartesBancaires": "",
+        "dateEncoursCartesBancaires": "",
+        "dateSolde": "11-11-2016"
+      }
+  }
+}

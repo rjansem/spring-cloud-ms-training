@@ -1,0 +1,31 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/devises/10",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A3"
+      },
+      "coderacine": {
+        "equalTo": "A3R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "id": 10,
+      "code": "EUR",
+      "euroCoursAchat": "1.0000000000",
+      "euroCoursVente": "",
+      "libelle": "SPAIN",
+      "libelleMonnaie": "EURO",
+      "nbDecimales": 2,
+      "euroCours": "1.0000000000"
+    }
+  }
+}

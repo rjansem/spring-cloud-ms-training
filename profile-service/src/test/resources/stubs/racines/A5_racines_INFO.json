@@ -1,0 +1,36 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/abonnes/web",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "login": "A5",
+      "titreCivilite": "Mme",
+      "nom": "REVOL",
+      "prenom": "YVES",
+      "adresse1": "ADR1 3",
+      "adresse2": "ADR2 3",
+      "adresse3": "ADR3 3",
+      "adresse4": "ADR4 3",
+      "adresse5": "ADR5 3",
+      "codePostal": "94120",
+      "ville": "FONTENAY SOUS BOIS",
+      "codePays": "FR",
+      "email": "MAILSSO 3",
+      "telephoneFixe": "TEL 3",
+      "telephoneMobile": "MOB 3",
+      "langue": "FR"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/cartesBancaires",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A1"
+      },
+      "coderacine": {
+        "equalTo": "A5R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": 521,
+        "numero": "1002504780000352",
+        "titulaire": "M DOE CHRISTIAN",
+        "encours": "-250.000000",
+        "datePrelevement": "01-12-2016",
+        "type": "VISA CLASSIC internationale",
+        "intitule": "DOE CHRISTIAN",
+        "devise": 10
+      }
+    ]
+  }
+}

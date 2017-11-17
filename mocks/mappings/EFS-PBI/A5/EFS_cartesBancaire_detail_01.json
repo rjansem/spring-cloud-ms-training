@@ -1,0 +1,36 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/cartesBancaires/511",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A1"
+      },
+      "coderacine": {
+        "equalTo": "A1R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": 511,
+        "type": "VISA CLASSIC internationale",
+        "numero": "1002504780000351",
+        "titulaire": "M DOE CHRISTIAN",
+        "encours": "-14.000000",
+        "devise": 10,
+        "statut": "ACT",
+        "dateExpiration": "28-04-2017",
+        "ibanCompte": "FR7630788001002504780000351",
+        "intitule": "NADAL CHRISTIAN",
+        "datePrelevement": "01-12-2016"
+      }
+    ]
+  }
+}

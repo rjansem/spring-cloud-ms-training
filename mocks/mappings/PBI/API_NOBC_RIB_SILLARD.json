@@ -1,0 +1,81 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/clients/2512980/rib"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "accounts": [
+        {
+          "id": "FR7630788001002015807000178",
+          "accountNumber": "20158070001",
+          "subtype": "COMPTE A VUE",
+          "subtypeId": "CAV",
+          "type": "Compte courant",
+          "typeId": "DAV",
+          "iban": "FR7630788001002015807000178",
+          "bic": "NSMBFRPPXXX",
+          "bankName": "Neuflize OBC",
+          "bankAddress": "3, avenue Hoche 75410 Paris Cedex 08 FRANCE",
+          "clientLastName": "SILLARD BENOIT"
+        },
+        {
+          "id": "FR7630788001002015807000275",
+          "accountNumber": "20158070002",
+          "subtype": "PEA GERE",
+          "subtypeId": "PAG",
+          "type": "Epargne",
+          "typeId": "Epargne",
+          "iban": "FR7630788001002015807000275",
+          "bic": "NSMBFRPPXXX",
+          "bankName": "Neuflize OBC",
+          "bankAddress": "3, avenue Hoche 75410 Paris Cedex 08 FRANCE",
+          "clientLastName": "SILLARD BENOIT"
+        },
+        {
+          "id": "FR7630788001002015807000372",
+          "accountNumber": "20158070003",
+          "subtype": "LIV.PRIVILEGE",
+          "subtypeId": "LVP",
+          "type": "Epargne",
+          "typeId": "Epargne",
+          "iban": "FR7630788001002015807000372",
+          "bic": "NSMBFRPPXXX",
+          "bankName": "Neuflize OBC",
+          "bankAddress": "3, avenue Hoche 75410 Paris Cedex 08 FRANCE",
+          "clientLastName": "SILLARD BENOIT"
+        },
+        {
+          "id": "FR7630788001002015807000469",
+          "accountNumber": "20158070004",
+          "subtype": "PEA PME",
+          "subtypeId": "PPE",
+          "type": "Epargne",
+          "typeId": "Epargne",
+          "iban": "FR7630788001002015807000469",
+          "bic": "NSMBFRPPXXX",
+          "bankName": "Neuflize OBC",
+          "bankAddress": "3, avenue Hoche 75410 Paris Cedex 08 FRANCE",
+          "clientLastName": "SILLARD BENOIT"
+        },
+        {
+          "id": "FR7630788001000860758000128",
+          "accountNumber": "08607580001",
+          "subtype": "COMPTE A VUE",
+          "subtypeId": "CAV",
+          "type": "Compte courant",
+          "typeId": "DAV",
+          "iban": "FR7630788001000860758000128",
+          "bic": "NSMBFRPPXXX",
+          "bankName": "Neuflize OBC",
+          "bankAddress": "3, avenue Hoche 75410 Paris Cedex 08 FRANCE",
+          "clientLastName": "SILLARD BENOIT"
+        }
+      ]
+    }
+  }
+}

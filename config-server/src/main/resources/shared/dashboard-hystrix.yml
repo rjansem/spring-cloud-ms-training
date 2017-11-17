@@ -1,0 +1,12 @@
+server:
+  port: ${port:6161}
+spring:
+  datasource:
+    initialize: false
+turbine:
+  stream:
+    port: ${port:8989}
+logging:
+  path: c:/tmp
+  level:
+    com.github.rjansem.microservices.training: TRACE

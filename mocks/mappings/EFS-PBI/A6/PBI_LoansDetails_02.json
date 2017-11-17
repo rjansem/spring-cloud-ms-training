@@ -1,0 +1,29 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/nobc-api/account-service/v1/clients/8800001/loans/35964"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": "35964",
+        "accountNumber": "35964",
+        "type": "Dépôt à terme",
+        "typeId": "DAT",
+        "clientLastName": "CAT",
+        "bookedBalance": 1800000.00,
+        "bookedBalanceCurrency": "EUR",
+        "openingDate": "2015-11-10",
+        "expirationDate": "2015-11-20",
+        "interest": "1.000000",
+        "targetNumber": "00000000001",
+        "targetIBAN": "FR7630788001002504780000351"
+      }
+    ]
+  }
+}

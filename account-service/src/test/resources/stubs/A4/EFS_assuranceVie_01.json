@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/assurancesVie",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A4"
+      },
+      "coderacine": {
+        "equalTo": "A4R1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "numero": "800003410",
+        "nomAssureur": "GENERALI FRANCE VIE",
+        "intitule": "PREFERENCE CAPITALISATION PARTIC",
+        "premierSouscripteur": "SCGP ",
+        "valorisation": "2327136.56",
+        "type": "Externe",
+        "codeDevise": "EUR"
+      }
+    ]
+  }
+}

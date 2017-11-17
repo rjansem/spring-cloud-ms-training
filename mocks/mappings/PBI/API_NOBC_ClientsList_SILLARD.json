@@ -1,0 +1,107 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/clients"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "clients": [
+        {
+          "clientTechnicalId": "2512980",
+          "lastName": "SILLARD BENOIT",
+          "mandateFlag": false,
+          "accounts": [
+            {
+              "id": "FR7630788001002015807000178",
+              "accountNumber": "20158070001",
+              "subtype": "COMPTE A VUE",
+              "subtypeId": "CAV",
+              "type": "Compte courant",
+              "typeId": "DAV",
+              "iban": "FR7630788001002015807000178"
+            },
+            {
+              "id": "FR7630788001002015807000275",
+              "accountNumber": "20158070002",
+              "subtype": "PEA GERE",
+              "subtypeId": "PAG",
+              "type": "Epargne",
+              "typeId": "Epargne",
+              "iban": "FR7630788001002015807000275"
+            },
+            {
+              "id": "FR7630788001002015807000372",
+              "accountNumber": "20158070003",
+              "subtype": "LIV.PRIVILEGE",
+              "subtypeId": "LVP",
+              "type": "Epargne",
+              "typeId": "Epargne",
+              "iban": "FR7630788001002015807000372"
+            },
+            {
+              "id": "FR7630788001002015807000469",
+              "accountNumber": "20158070004",
+              "subtype": "PEA PME",
+              "subtypeId": "PPE",
+              "type": "Epargne",
+              "typeId": "Epargne",
+              "iban": "FR7630788001002015807000469"
+            },
+            {
+              "id": "TBD",
+              "accountNumber": "20158070100",
+              "subtype": "Compte titre non PEA",
+              "subtypeId": "TBD",
+              "type": "Portefeuilles titres",
+              "typeId": "TBD"
+            },
+            {
+              "id": "TBD",
+              "accountNumber": "20158070600",
+              "subtype": "Compte titre PEA",
+              "subtypeId": "TBD",
+              "type": "Portefeuilles titres",
+              "typeId": "TBD"
+            },
+            {
+              "id": "TBD",
+              "accountNumber": "20158070004",
+              "subtype": "Compte titre PEA",
+              "subtypeId": "TBD",
+              "type": "Portefeuilles titres",
+              "typeId": "TBD"
+            },
+            {
+              "id": "TBD",
+              "accountNumber": "10018583",
+              "subtype": "TBD",
+              "subtypeId": "TBD",
+              "type": "Assurance-vie",
+              "typeId": "TBD"
+            }
+          ]
+        },
+        {
+          "clientTechnicalId": "0115367",
+          "lastName": "SILLARD M. OU MME BENOIT",
+          "mandateFlag": true,
+          "accounts": [
+            {
+              "id": "FR7630788001000860758000128",
+              "accountNumber": "08607580001",
+              "subtype": "COMPTE A VUE",
+              "subtypeId": "CAV",
+              "type": "Compte courant",
+              "typeId": "DAV",
+              "iban": "FR7630788001000860758000128"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

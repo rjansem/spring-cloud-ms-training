@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/assurancesVie",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      },
+      "coderacine": {
+        "equalTo": "A5R2"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "numero": "80000002",
+        "nomAssureur": "NEUFLIZE VIE",
+        "intitule": "HOCHE PATRIMOINE EVOLUTION CAPITALISATION",
+        "premierSouscripteur": "NEEL PHILIPPE ",
+        "valorisation": "22927136.56",
+        "type": "Externe",
+        "codeDevise": "EUR"
+      }
+    ]
+  }
+}

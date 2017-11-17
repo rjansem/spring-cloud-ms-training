@@ -1,0 +1,36 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/comptes/courant",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "TESTCSA"
+      },
+      "coderacine": {
+        "equalTo": "8800001"
+      },
+      "codeprofil": {
+        "equalTo": "P"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "numero": "00000000001",
+        "type": "COMPTE A VUE",
+        "intitule": "REVOL YVES",
+        "solde": "2312.75",
+        "devise": 10,
+        "iban": "FR7630788001002504780000351",
+        "encoursCartesBancaires": "-1000.00",
+        "dateEncoursCartesBancaires": "23-11-2016"
+      }
+    ]
+  }
+}

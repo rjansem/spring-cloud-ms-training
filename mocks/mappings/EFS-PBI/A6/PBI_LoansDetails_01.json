@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/nobc-api/account-service/v1/clients/8800001/loans/0023514"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": "0023514",
+        "accountNumber": "0023514",
+        "type": "Crédit",
+        "typeId": "credit",
+        "subtype": "CREDIT DE TRESORERIE",
+        "clientLastName": "b mandat pujocert -0000006-",
+        "bookedBalance": 1800000.00,
+        "bookedBalanceCurrency": "EUR",
+        "initialBalance": 2000.00,
+        "openingDate": "2014-30-12",
+        "expirationDate": "2021-31-12",
+        "interest": "EURI3M +   1,30",
+        "mode": "MODE D'AMORTISSEMENT SPECIALE",
+        "frequency": "ANNUELLE",
+        "nextDate": "2016-03-31",
+        "nextAmount": 5915.00,
+        "interestType": "ECHEANCE INTERETS"
+      }
+    ]
+  }
+}

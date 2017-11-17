@@ -1,0 +1,36 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/webank/v1.0/abonnes/web",
+    "queryParameters": {
+      "loginwebabonne": {
+        "equalTo": "A5"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "login": "A5",
+      "titreCivilite": "M",
+      "nom": "Doe",
+      "prenom": "John",
+      "adresse1": "",
+      "adresse2": "",
+      "adresse3": "6 rue de l’impasse",
+      "adresse4": "",
+      "adresse5": "",
+      "codePostal": "77000",
+      "ville": "Melun",
+      "codePays": "FR",
+      "email": "doe.john@zzz.com",
+      "telephoneFixe": "0102030405",
+      "telephoneMobile": "",
+      "langue": "EN"
+    }
+  }
+}

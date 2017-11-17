@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/webank/v1.0/ordres/WBSCT3_99/kbv/signe",
+    "bodyPatterns" : [{
+      "equalToJson" : "{\"loginWebAbonne\": \"A7\",\"idClavierVirtuel\": \"keyboard1488298567125AAC65821A9AB452AF7082EF3A571D066\",\"codeClavierVirtuel\": \"NDxuSs6cATJqYft99/Q6ecIWtPxQ2nPVEeC67tWImUiKgzzm/yNHVEO264ajZM373FmRUMruZeFxihBCGHqu1fx1LnQFPM2z3Jh/jOScDxh6nJJk9jkx7bnu+t5t8f7DU8YBrPDm7Wi6CpciokasLF2aLc7zaH/NDpF5a4r0HSzplCwKW+ZLZlnn75Op5Srd4BbMKooLItAdZoav3x74+Rf7mM6BAgeEEViyAziya8gFsFaPx/YLsIlo02yMWtwU9ew0llkATY4IgGul1Fx12jyNcjYB1ayRx1+LfQg74o7SkqFuW2DQwNfFp8/TZxAyagyX3b4v4tlYrJR2S+xc5A==\"}"
+    }]
+  },
+  "response": {
+    "status": 204,
+    "fixedDelayMilliseconds": 100,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+
+    }
+  }
+}
