@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.apisecurity;
 /**
  * Constantes liées à la sécurité
  *
- * @author jntakpe
+ * @author rjansem
  */
 public final class SecurityConstants {
 

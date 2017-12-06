@@ -36,11 +36,6 @@
             <artifactId>commons-error</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.github.rjansem.microservices.training</groupId>
-            <artifactId>commons-cache</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -18,7 +18,7 @@ public final class ApiConstants {
 
     static final String SIGN_PAYMENT = "/signTransactionByKbv";
 
-    static final String PAYMENT_ORDER = "/clients/new-sepa-transfer";
+    static final String PAYMENT_ORDER = "{userId}/clients/new-sepa-transfer";
 
     static final String VKB = "/getkeyboard";
 }

@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
  * Classe principale du service de gestion des comptes clients
  *
  * @author rjansem
- * @author jntakpe
+ * @author rjansem
  */
 @EnableHystrix
 @EnableFeignClients

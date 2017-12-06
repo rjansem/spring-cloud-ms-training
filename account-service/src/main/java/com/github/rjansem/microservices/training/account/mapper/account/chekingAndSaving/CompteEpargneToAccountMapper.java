@@ -7,7 +7,7 @@ import com.github.rjansem.microservices.training.account.domain.pbi.account.Acco
 /**
  * Mapper transformant un {@link CompteEpargne} en {@link Account}
  *
- * @author jntakpe
+ * @author rjansem
  * @see CompteToAccountMapper
  */
 public class CompteEpargneToAccountMapper extends CompteToAccountMapper<CompteEpargne> {

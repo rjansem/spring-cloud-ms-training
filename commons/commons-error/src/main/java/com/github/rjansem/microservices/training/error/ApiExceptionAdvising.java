@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 /**
  * Intercepte les exceptions sortantes de l'API pour les wrapper si nécessaire
  *
- * @author jntakpe
+ * @author rjansem
  * @author aazzerrifi
  */
 @ControllerAdvice("com.github.rjansem.microservices.training")

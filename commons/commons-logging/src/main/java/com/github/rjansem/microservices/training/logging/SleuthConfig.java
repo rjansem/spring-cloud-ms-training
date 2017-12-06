@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Configuration de Sleuth
  *
- * @author jntakpe
+ * @author rjansem
  */
 @Configuration
 public class SleuthConfig {

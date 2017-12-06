@@ -18,7 +18,7 @@ import static com.github.rjansem.microservices.training.account.mapper.account.M
 /**
  * Mapper transformant des {@link CompteCourant} et {@link CompteEpargne} en {@link AccountOverview}
  *
- * @author jntakpe
+ * @author rjansem
  * @author aazzerrifi
  */
 public class AccountsToAccountOverviewMapper {

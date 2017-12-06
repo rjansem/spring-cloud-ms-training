@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.account.domain.efs.operation;
 /**
  * Bean wrappant un champ libelle
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class LibelleWrapper {
 

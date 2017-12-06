@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.account.domain;
 /**
  * Énumération des devises
  *
- * @author jntakpe
+ * @author rjansem
  */
 public enum Currency {
 

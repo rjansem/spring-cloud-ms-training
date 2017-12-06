@@ -9,7 +9,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  * Classe principale de l'application permettant de lancer le serveur de configuration centralisé
  *
  * @author rjansem
- * @author jntakpe
+ * @author rjansem
  */
 @EnableConfigServer
 @SpringBootApplication

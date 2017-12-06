@@ -7,7 +7,7 @@ import java.util.Collections;
 /**
  * Utilitaires de tests pour les utilisateurs
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class UserUtils {
 

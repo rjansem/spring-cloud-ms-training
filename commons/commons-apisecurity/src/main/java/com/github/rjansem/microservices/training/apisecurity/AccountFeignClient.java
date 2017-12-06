@@ -13,7 +13,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 /**
  * Meta annotation de {@link FeignClient} permettant de communiquer avec le microservice account-service
  *
- * @author jntakpe
+ * @author rjansem
  */
 @Documented
 @Target(ElementType.TYPE)

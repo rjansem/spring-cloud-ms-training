@@ -6,7 +6,7 @@ import javax.validation.ConstraintValidatorContext;
 /**
  * Validateur Bean Validation permettant de vérifier que la racine appartient bien à l'utilisateur courant
  *
- * @author jntakpe
+ * @author rjansem
  * @see ConstraintValidator
  */
 public final class OwnRacineValidator implements ConstraintValidator<OwnRacine, String> {

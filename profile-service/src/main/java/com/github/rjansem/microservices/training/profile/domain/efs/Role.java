@@ -9,7 +9,7 @@ import java.util.Objects;
 /**
  * Bean représentant les services d'un utilisateur
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class Role implements EfsBean {
 

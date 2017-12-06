@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.account.client;
 /**
  * Constantes d'URIs pour les appels aux clients
  *
- * @author jntakpe
+ * @author rjansem
  */
 public final class ClientConstants {
 

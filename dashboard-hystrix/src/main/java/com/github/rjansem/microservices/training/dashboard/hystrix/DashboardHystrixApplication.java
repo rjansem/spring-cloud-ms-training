@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.turbine.stream.EnableTurbineStream;
 /**
  * Classe principale de l'application permettant de visualiser les circuits Hystrix
  *
- * @author jntakpe
+ * @author rjansem
  */
 @EnableTurbineStream
 @EnableDiscoveryClient

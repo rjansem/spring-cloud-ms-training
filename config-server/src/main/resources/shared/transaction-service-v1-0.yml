@@ -37,7 +37,7 @@ hystrix:
           thread:
             timeoutInMilliseconds: 2000
 logging:
-  path: c:/tmp
+  file: c:/tmp/transaction-service.log
   level:
     com.github.rjansem.microservices.training: TRACE
 

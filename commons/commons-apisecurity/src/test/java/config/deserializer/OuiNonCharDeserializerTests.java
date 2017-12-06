@@ -15,7 +15,7 @@ import static org.junit.Assert.fail;
 /**
  * Tests associés aux déserializer de Boolean {@link OuiNonCharDeserializer}
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class OuiNonCharDeserializerTests {
 

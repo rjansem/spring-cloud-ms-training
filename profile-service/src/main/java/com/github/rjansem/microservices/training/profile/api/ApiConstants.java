@@ -6,15 +6,15 @@ import com.github.rjansem.microservices.training.apisecurity.ServicesUris;
 /**
  * Constantes liées aux URIs
  *
- * @author jntakpe
+ * @author rjansem
  */
 final class ApiConstants {
 
+    private static final String USER = ServicesUris.API + "/{userId}";
+
     static final String TOKEN = ServicesUris.API + "/token";
 
-    static final String CLIENT = ServicesUris.API + "/clients";
-
-    static final String RETRIEVE_CALENDAR = ServicesUris.API + "/calendar";
+    static final String CLIENT = USER + "/clients";
 
     static final String RACINE_BY_ID = "/api/racines/{idRacine}";
 

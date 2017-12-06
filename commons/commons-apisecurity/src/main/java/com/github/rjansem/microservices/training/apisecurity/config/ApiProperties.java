@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 /**
  * Proprités de l'API exposée par Swagger
  *
- * @author jntakpe
+ * @author rjansem
  */
 @Component
 @ConfigurationProperties("api.docs")

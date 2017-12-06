@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.exception;
 /**
  * Codes d'exception techniques
  *
- * @author jntakpe
+ * @author rjansem
  */
 public enum TechnicalCode implements ExceptionCode {
 

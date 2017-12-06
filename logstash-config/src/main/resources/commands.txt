@@ -1,6 +1,6 @@
 D:\Programmes\Logstash\logstash-5.3.0\bin\logstash.bat -f "D:\Projets\NOBC\api-ms-mobile\git\nobc-api\logstash-config\src\main\resources\logstash.conf"
-D:\Programmes\Logstash\logstash-5.4.0\bin\logstash.bat -f "D:\Projets\NOBC\api-ms-mobile\git\nobc-api\logstash-config\src\main\resources\logstash.conf"
+D:\Programmes\Logstash\logstash-5.4.0\bin\logstash.bat -f "D:\Documents\Sopra\Formations Transformation Digitale\git\spring-cloud-ms-training\logstash-config\src\main\resources\logstash.conf"
 
-D:\Programmes\Logstash\filebeat-5.3.0\filebeat.exe -c "D:\Projets\NOBC\api-ms-mobile\git\nobc-api\logstash-config\src\main\resources\filebeat.yml"
+D:\Programmes\Logstash\filebeat-5.3.0\filebeat.exe -c "D:\Documents\Sopra\Formations Transformation Digitale\git\spring-cloud-ms-training\logstash-config\src\main\resources\filebeat.yml"
 
 D:\Programmes\Logstash\heartbeat-5.3.0\heartbeat.exe -c "D:\Projets\NOBC\api-ms-mobile\git\nobc-api\logstash-config\src\main\resources\heartbeat.yml"

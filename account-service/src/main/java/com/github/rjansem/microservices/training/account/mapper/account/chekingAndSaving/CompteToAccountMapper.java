@@ -18,7 +18,7 @@ import java.util.Objects;
  * les {@link CompteCourant} et {@link CompteEpargne}
  *
  * @param <I> type du compte en entrée provenant d'EFS
- * @author jntakpe
+ * @author rjansem
  * @see Compte
  * @see Account
  * @see CompteCourantToAccountMapper

@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 /**
  * Classe principale du service de gestion des profils utilisateurs
  *
- * @author jntakpe
+ * @author rjansem
  */
 @EnableHystrix
 @EnableFeignClients

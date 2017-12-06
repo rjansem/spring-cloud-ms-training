@@ -8,7 +8,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * Tests de configuration générale du service de gestion des profils utilisateurs
  *
- * @author jntakpe
+ * @author rjansem
  */
 @SpringBootTest
 @RunWith(SpringRunner.class)

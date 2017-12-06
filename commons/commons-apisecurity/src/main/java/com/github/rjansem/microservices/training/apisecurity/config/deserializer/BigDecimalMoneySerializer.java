@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 /**
  * Serializer de {@link BigDecimal} avec 2 chiffres avec la virgule
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class BigDecimalMoneySerializer extends JsonSerializer<BigDecimal> {
 

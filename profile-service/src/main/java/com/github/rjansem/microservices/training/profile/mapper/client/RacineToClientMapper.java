@@ -8,7 +8,7 @@ import com.github.rjansem.microservices.training.profile.domain.pib.Client;
 /**
  * Mapper transformant une {@link Racine} en {@link Client}
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class RacineToClientMapper implements EfsToPibMapper<Racine, Client> {
 

@@ -9,7 +9,7 @@ import java.util.Objects;
  * Bean représentant un compte remonté par EFS.
  * Les comptes peuvent être de type {@link CompteCourant} ou {@link CompteEpargne}
  *
- * @author jntakpe
+ * @author rjansem
  * @see CompteCourant
  * @see CompteEpargne
  */

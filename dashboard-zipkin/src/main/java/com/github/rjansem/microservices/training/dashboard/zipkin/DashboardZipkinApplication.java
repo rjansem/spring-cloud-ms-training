@@ -7,7 +7,7 @@ import org.springframework.cloud.sleuth.zipkin.stream.EnableZipkinStreamServer;
 /**
  * Classe principale de l'application permettant de visualiser les appels interservices via Zipkin
  *
- * @author jntakpe
+ * @author rjansem
  */
 @SpringBootApplication
 @EnableZipkinStreamServer

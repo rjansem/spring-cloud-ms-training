@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 /**
  * Simule le contexte de sécurité d'un utilisateur inconnu
  *
- * @author jntakpe
+ * @author rjansem
  * @see WithMockAuthenticatedUser
  */
 @Retention(RetentionPolicy.RUNTIME)

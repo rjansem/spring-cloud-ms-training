@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.exception;
 /**
  * Code représentant le type d'exception de manière unique
  *
- * @author jntakpe
+ * @author rjansem
  */
 public interface ExceptionCode {
 

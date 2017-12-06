@@ -8,7 +8,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * Tests de configuration générale de l'application config-server
  *
- * @author jntakpe
+ * @author rjansem
  */
 @SpringBootTest
 @RunWith(SpringRunner.class)

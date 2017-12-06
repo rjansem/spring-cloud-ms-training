@@ -1,15 +1,11 @@
 package com.github.rjansem.microservices.training.transaction.domain.pbi.transaction;
 
 
-import com.github.rjansem.microservices.training.transaction.mapper.commun.Utils;
 import com.github.rjansem.microservices.training.commons.domain.PbiBean;
-import com.github.rjansem.microservices.training.transaction.mapper.commun.Utils;
 import org.apache.commons.lang.builder.ToStringBuilder;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
 /**
@@ -17,7 +13,7 @@ import java.util.Objects;
  *
  * @author mbouhamyd
  */
-public class Transaction implements PbiBean, Comparable<Transaction>, Serializable {
+public class Transaction implements PbiBean, Serializable {
     private String id;
 
     private String status;
@@ -313,28 +309,5 @@ public class Transaction implements PbiBean, Comparable<Transaction>, Serializab
                 .toString();
     }
 
-    @Override
-    public int compareTo(Transaction other) {
-        LocalDateTime current = LocalDateTime.parse(this.getBookingDateTime(), DateTimeFormatter.ofPattern(Utils.PIB_DATE_FORMAT));
-        LocalDateTime to = LocalDateTime.parse(other.getBookingDateTime(), DateTimeFormatter.ofPattern(Utils.PIB_DATE_FORMAT));
-        int compareDate = to.compareTo(current);
-        LocalDateTime operationcurrent = LocalDateTime.parse(this.getInitiationDate(), DateTimeFormatter.ofPattern(Utils.PIB_DATE_FORMAT));
-        LocalDateTime operationto = LocalDateTime.parse(other.getInitiationDate(), DateTimeFormatter.ofPattern(Utils.PIB_DATE_FORMAT));
-        int compareoperationDate = operationto.compareTo(operationcurrent);
-        int ClientName=this.getClientName().compareTo(other.getClientName());
-        if (compareDate == 0) {
-            if (compareoperationDate == 0) {
-                if (ClientName == 0) {
-                    return this.getId().compareTo(other.getId());
-                } else {
-                    return ClientName;
-                }
-            } else {
-                return compareoperationDate;
-            }
-        } else {
-            return compareDate;
-        }
-    }
 
 }

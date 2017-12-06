@@ -5,7 +5,7 @@ import rx.observers.TestSubscriber;
 /**
  * Implémentation de {@link TestSubscriber} avec quelques méthodes utilitaires additionnelles
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class CustomTestSubscriber<T> extends TestSubscriber<T> {
 

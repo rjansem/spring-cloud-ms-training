@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * Déserializer Jackson permettant de convertir les 'O' et 'N' en boolean
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class OuiNonCharDeserializer extends JsonDeserializer<Boolean> {
 

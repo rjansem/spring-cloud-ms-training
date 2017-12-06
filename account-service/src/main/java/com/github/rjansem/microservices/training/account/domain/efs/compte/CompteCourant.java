@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.account.domain.efs.compte;
 /**
  * Bean représentant un compte courant
  *
- * @author jntakpe
+ * @author rjansem
  * @see Compte
  */
 public class CompteCourant extends Compte {

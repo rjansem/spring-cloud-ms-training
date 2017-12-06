@@ -7,7 +7,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 /**
  * Constants d'assertions pour les ressources web
  *
- * @author jntakpe
+ * @author rjansem
  */
 public final class AssertionConstants {
 

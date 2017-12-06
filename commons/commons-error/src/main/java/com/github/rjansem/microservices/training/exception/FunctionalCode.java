@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.exception;
 /**
  * Codes d'exception fonctionnels
  *
- * @author jntakpe
+ * @author rjansem
  */
 public enum FunctionalCode implements ExceptionCode {
 

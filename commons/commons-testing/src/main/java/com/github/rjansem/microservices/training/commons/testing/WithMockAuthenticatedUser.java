@@ -9,7 +9,7 @@ import java.lang.annotation.RetentionPolicy;
 /**
  * Indique qu'il faut créer un contexte de sécurité pour la méthode annotée
  *
- * @author jntakpe
+ * @author rjansem
  */
 @Retention(RetentionPolicy.RUNTIME)
 @WithSecurityContext(factory = WithMockAuthenticatedUserContextFactory.class)

@@ -5,7 +5,7 @@ package com.github.rjansem.microservices.training.commons.domain;
  *
  * @param <I> type du bean en entrée
  * @param <O> type du bean en sortie
- * @author jntakpe
+ * @author rjansem
  */
 @FunctionalInterface
 public interface EfsToPibMapper<I extends EfsBean, O extends PbiBean> {

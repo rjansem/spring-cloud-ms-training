@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * Classe principale de l'application de serveur d'annuaire permettant d'enregistrer les adresses des différents services
  *
  * @author rjansem
- * @author jntakpe
+ * @author rjansem
  */
 @EnableEurekaServer
 @SpringBootApplication

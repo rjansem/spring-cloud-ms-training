@@ -5,7 +5,7 @@ import feign.FeignException;
 /**
  * Wrapper ajoutant le code EFS à une FeignException
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class EfsFeignException extends FeignException {
 

@@ -1,7 +1,9 @@
 filebeat.prospectors:
 - input_type: log
   paths:
-    - c:/tmp/*.log
+    - c:/tmp/account-service.log
+    - c:/tmp/profile-service.log
+    - c:/tmp/transaction-service.log
 
 #----------------------------- Logstash output --------------------------------
 output.logstash:

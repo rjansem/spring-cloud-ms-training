@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.account.domain;
 /**
  * Énumération des profils
  *
- * @author jntakpe
+ * @author rjansem
  */
 public enum Profil {
 

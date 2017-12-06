@@ -8,7 +8,7 @@ import java.util.StringJoiner;
 /**
  * Bean représentant la clé en cache d'un {@link Compte}
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class CompteCacheKey implements CacheKey {
 

@@ -17,7 +17,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 /**
  * Méthodes utilitaires pour les tests de ressources REST
  *
- * @author jntakpe
+ * @author rjansem
  */
 @RunWith(SpringRunner.class)
 @AutoConfigureWireMock(stubs = "classpath:/stubs")

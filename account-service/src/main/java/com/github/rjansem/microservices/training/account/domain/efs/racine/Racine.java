@@ -10,7 +10,7 @@ import java.util.Objects;
 /**
  * Bean représentant la 'racine' d'un abonné
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class Racine implements EfsBean {
 

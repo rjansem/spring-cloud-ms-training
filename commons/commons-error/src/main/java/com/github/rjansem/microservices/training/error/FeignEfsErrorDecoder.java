@@ -17,7 +17,7 @@ import java.io.IOException;
 /**
  * Décode les erreurs Feign notamment celles renvoyées par EFS
  *
- * @author jntakpe
+ * @author rjansem
  */
 @Component
 public class FeignEfsErrorDecoder implements ErrorDecoder {

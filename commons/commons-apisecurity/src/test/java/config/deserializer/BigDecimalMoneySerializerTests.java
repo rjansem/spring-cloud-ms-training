@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * Tests associés à la déserialisation des {@link BigDecimal}
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class BigDecimalMoneySerializerTests {
 

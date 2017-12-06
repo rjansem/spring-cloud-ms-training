@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.commons.domain;
 /**
  * Interface publiant les méthodes permettant manipuler les identifiants de domain
  *
- * @author jntakpe
+ * @author rjansem
  */
 public interface IdentifiableDomain {
 

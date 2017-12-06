@@ -9,7 +9,7 @@ import java.util.Objects;
 /**
  * Bean représentant l'utilisateur courant récupéré à partir du token JWT
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class AuthenticatedUser {
 

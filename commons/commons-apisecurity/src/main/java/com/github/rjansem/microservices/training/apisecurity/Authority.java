@@ -8,7 +8,7 @@ import java.util.Objects;
 /**
  * Énumération des droits des utilisateurs
  *
- * @author jntakpe
+ * @author rjansem
  */
 public enum Authority {
 

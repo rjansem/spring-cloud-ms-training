@@ -14,7 +14,7 @@ import java.util.TreeMap;
 /**
  * Exception générale de l'application
  *
- * @author jntakpe
+ * @author rjansem
  */
 @JsonIgnoreProperties({"stackTrace", "localizedMessage", "suppressed"})
 public class NOBCException extends RuntimeException {

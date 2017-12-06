@@ -12,7 +12,7 @@ import java.util.Optional;
 /**
  * Classe contenant les méthodes utilitaires de sécurité
  *
- * @author jntakpe
+ * @author rjansem
  */
 final class SecurityUtils {
 

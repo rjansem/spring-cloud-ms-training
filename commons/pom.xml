@@ -15,7 +15,6 @@
         <module>commons-error</module>
         <module>commons-domain</module>
         <module>commons-testing</module>
-        <module>commons-cache</module>
     </modules>
 
     <parent>

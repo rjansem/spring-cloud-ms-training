@@ -14,7 +14,7 @@ import java.util.List;
  * Bean représentant la synthèse de l'ensemble des comptes
  *
  * @author aazzerrifi
- * @author jntakpe
+ * @author rjansem
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class AccountOverview implements PbiBean {

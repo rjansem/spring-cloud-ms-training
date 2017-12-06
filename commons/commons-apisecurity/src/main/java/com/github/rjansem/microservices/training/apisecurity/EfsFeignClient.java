@@ -13,7 +13,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 /**
  * Meta annotation de {@link org.springframework.cloud.netflix.feign.FeignClient} permettant de communiquer avec EFS
  *
- * @author jntakpe
+ * @author rjansem
  */
 @Documented
 @Target(ElementType.TYPE)

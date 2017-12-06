@@ -18,9 +18,9 @@ hystrix:
       maxQueueSize: 200
       queueSizeRejectionThreshold: 200
     account-service-v1-0:
-      coreSize: 50
-      maxQueueSize: 500
-      queueSizeRejectionThreshold: 500
+      coreSize: 5
+      maxQueueSize: 5
+      queueSizeRejectionThreshold: 5
   command:
     account-service-v1-0:
       execution:
@@ -46,11 +46,11 @@ api:
 redis:
   caches:
     - name: racinesCache
-      expiry: 30
+      expiry: 0
     - name: rolesCache
-      expiry: 30
+      expiry: 0
 logging:
-  path: c:/tmp
+  file: c:/tmp/account-service.log
   level:
     com.github.rjansem.microservices.training: TRACE
 

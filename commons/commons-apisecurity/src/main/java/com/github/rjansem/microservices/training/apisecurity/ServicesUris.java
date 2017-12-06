@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.apisecurity;
 /**
  * Constantes d'URIs relatives aux échanges avec les microservices
  *
- * @author jntakpe
+ * @author rjansem
  */
 public final class ServicesUris {
 

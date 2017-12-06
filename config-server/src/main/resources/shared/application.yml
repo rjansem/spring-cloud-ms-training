@@ -1,12 +1,12 @@
 efs:
   gateway:
-    url: ${efs.gateway.uri:http://localhost:9080/nobc-api/efs-service}
+    url: ${efs.gateway.uri:http://localhost:9080/api/efs-service}
 auth:
   gateway:
-    url: ${auth.gateway.uri:http://localhost:9080/nobc-api/auth-service}
+    url: ${auth.gateway.uri:http://localhost:9080/api/auth-service}
 efswsauthentication:
   gateway:
-    url: ${efswsauthentication.gateway.uri:http://localhost:9080/nobc-api/efs-service-wsauthentication}
+    url: ${efswsauthentication.gateway.uri:http://localhost:9080/api/efs-service-wsauthentication}
 business:
   links:
     externalBaseUrl: http://localhost:9080

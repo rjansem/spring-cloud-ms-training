@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.account.domain.efs.compte;
 /**
  * Bean représentant un compte épargne
  *
- * @author jntakpe
+ * @author rjansem
  * @see Compte
  */
 public class CompteEpargne extends Compte {

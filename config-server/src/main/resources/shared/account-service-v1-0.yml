@@ -41,23 +41,23 @@ business:
 redis:
   caches:
     - name: comptesCourantsCache
-      expiry: 900
+      expiry: 1
     - name: comptesEpargnesCache
-      expiry: 900
+      expiry: 1
     - name: depotsATermeCache
-      expiry: 900
+      expiry: 0
     - name: portfoliosCache
-      expiry: 900
+      expiry: 0
     - name: asvCache
-      expiry: 900
+      expiry: 0
     - name: loanCache
-      expiry: 900
+      expiry: 0
     - name: bulocCache
-      expiry: 900
+      expiry: 0
     - name: devisesCache
-      expiry: 900
+      expiry: 0
 logging:
-  path: c:/tmp
+  file: c:/tmp/account-service.log
   level:
     com.github.rjansem.microservices.training: TRACE
 

@@ -12,7 +12,7 @@ import java.util.Objects;
 /**
  * Bean représentant un client PIB
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class Client implements PbiBean {
 

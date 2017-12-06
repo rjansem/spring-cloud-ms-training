@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="account-service" />
         <module name="commons-apisecurity" />
-        <module name="commons-cache" />
         <module name="commons-domain" />
         <module name="commons-error" />
         <module name="commons-logging" />

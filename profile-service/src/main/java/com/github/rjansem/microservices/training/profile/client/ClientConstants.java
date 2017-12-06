@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.profile.client;
 /**
  * Constantes d'URIs pour les appels aux clients
  *
- * @author jntakpe
+ * @author rjansem
  */
 final class ClientConstants {
 
@@ -13,7 +13,9 @@ final class ClientConstants {
 
     static final String SERVICE = PREFIXE_EFS + "/services";
 
-    static final String ACCOUNT_BY_RACINE = "/api/clients/{clientTechnicalId}/accounts";
+    static final String ACCOUNT_BY_RACINE = "/api/{userId}/clients/{clientTechnicalId}/accounts";
+
+    static final String USER_ID_PATHVAR = "userId";
 
     static final String CLIENTS_TECHNICAL_ID_PATHVAR = "clientTechnicalId";
 

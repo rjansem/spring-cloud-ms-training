@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.commons.testing;
 /**
  * Constantes liées aux utilisateurs de mocks
  *
- * @author jntakpe
+ * @author rjansem
  */
 public final class UserConstants {
 

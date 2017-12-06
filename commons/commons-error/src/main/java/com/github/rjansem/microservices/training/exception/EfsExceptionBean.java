@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.exception;
 /**
  * Bean mappant une exception provenant d'EFS
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class EfsExceptionBean {
 

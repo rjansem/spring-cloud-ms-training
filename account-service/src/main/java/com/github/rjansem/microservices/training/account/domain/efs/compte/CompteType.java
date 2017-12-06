@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * Énumération des types de comptes
  *
- * @author jntakpe
+ * @author rjansem
  * @author aazzerrifi
  */
 public enum CompteType {

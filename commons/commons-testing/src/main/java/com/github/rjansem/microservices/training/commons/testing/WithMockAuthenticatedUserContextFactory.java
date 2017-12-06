@@ -19,25 +19,25 @@ import java.util.stream.Collectors;
 /**
  * Permet de créer un context de sécurité pour les tests avec l'annotation {@link WithMockAuthenticatedUser}
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class WithMockAuthenticatedUserContextFactory implements WithSecurityContextFactory<WithMockAuthenticatedUser> {
 
     @Override
     public SecurityContext createSecurityContext(WithMockAuthenticatedUser annotation) {
         SecurityContext context = SecurityContextHolder.createEmptyContext();
-        AuthenticatedUser user = userFromAnnotation(annotation);
+        String userId = userFromAnnotation(annotation);
         Collection<? extends GrantedAuthority> authorities = authoritiesFromAnnotation(annotation);
-        Authentication auth = new UsernamePasswordAuthenticationToken(user, "N/A", authorities);
+        Authentication auth = new UsernamePasswordAuthenticationToken(userId, "N/A", authorities);
         context.setAuthentication(auth);
         return context;
     }
 
-    private AuthenticatedUser userFromAnnotation(WithMockAuthenticatedUser annotation) {
+    private String userFromAnnotation(WithMockAuthenticatedUser annotation) {
         List<String> racines = Arrays.asList(annotation.racines());
         List<Authority> authorities = Arrays.asList(annotation.authorities());
         String login = StringUtils.isNotEmpty(annotation.value()) ? annotation.value() : annotation.login();
-        return new AuthenticatedUser("", login, racines, authorities);
+        return login;
     }
 
     private Collection<? extends GrantedAuthority> authoritiesFromAnnotation(WithMockAuthenticatedUser annotation) {

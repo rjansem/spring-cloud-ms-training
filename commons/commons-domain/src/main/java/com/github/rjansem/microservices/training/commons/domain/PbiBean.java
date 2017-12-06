@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 /**
  * Interface décrivant un bean communiquant avec PBI
  *
- * @author jntakpe
+ * @author rjansem
  * @author azzerrifi
  */
 @JsonInclude(JsonInclude.Include.NON_EMPTY)

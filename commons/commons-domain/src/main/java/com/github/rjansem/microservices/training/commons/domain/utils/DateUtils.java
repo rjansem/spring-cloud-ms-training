@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * Utilitaires de mapping de dates
  *
- * @author jntakpe
+ * @author rjansem
  */
 public final class DateUtils {
 

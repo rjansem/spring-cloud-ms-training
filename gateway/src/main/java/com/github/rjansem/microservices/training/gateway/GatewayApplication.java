@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 /**
  * Classe principale de l'application permettant de lancer le proxy Zuul
  *
- * @author jntakpe
+ * @author rjansem
  */
 @EnableZuulProxy
 @EnableDiscoveryClient

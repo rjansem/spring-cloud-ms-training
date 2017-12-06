@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.apisecurity.config;
 /**
  * Constantes liées aux profils utilisateurs
  *
- * @author jntakpe
+ * @author rjansem
  */
 final class ProfileConstants {
 

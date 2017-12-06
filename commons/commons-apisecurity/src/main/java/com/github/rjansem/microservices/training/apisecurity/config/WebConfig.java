@@ -13,7 +13,7 @@ import java.math.BigDecimal;
 /**
  * Configuration de Spring MVC
  *
- * @author jntakpe
+ * @author rjansem
  */
 @Configuration
 public class WebConfig {

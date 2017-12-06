@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Codes d'exceptions d'EFS
  *
- * @author jntakpe
+ * @author rjansem
  */
 public enum EfsCode implements ExceptionCode {
 

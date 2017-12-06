@@ -13,10 +13,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import rx.Single;
 
 import javax.validation.Valid;
@@ -41,12 +38,11 @@ public class SignatureResource {
     }
 
     @RequestMapping(method = RequestMethod.POST, headers = "Accept=application/json")
-    public Single<ListOfTransaction> signTransactionByKbv(@Valid @RequestBody SignTransaction signTransaction,
-                                                          @AuthenticationPrincipal AuthenticatedUser user) {
+    public Single<ListOfTransaction> signTransactionByKbv(@PathVariable String userId, @Valid @RequestBody SignTransaction signTransaction) {
 
-        return orderService.signPayment(signTransaction, user)
+        return orderService.signPayment(signTransaction, userId)
                 .doOnNext(p -> LOGGER.info("[ANALYTICS] [{}] [Transaction] [SignByVkb] transactionId={}",
-                        user.getLogin(),
+                        userId,
                         signTransaction.getTransactionIds().toString()
                 ))
                 .toSingle();

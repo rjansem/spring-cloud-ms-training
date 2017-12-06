@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.exception;
 /**
  * Bean renvoyé suite à une erreur
  *
- * @author jntakpe
+ * @author rjansem
  * @author aazzerrifi
  */
 public class CodeMessageErrorDTO {

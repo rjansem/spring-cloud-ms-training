@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * Wrapper de {@link Rib}
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class RibWrapper {
 

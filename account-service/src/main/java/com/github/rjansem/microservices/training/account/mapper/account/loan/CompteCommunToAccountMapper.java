@@ -17,7 +17,7 @@ import java.util.Objects;
  * les {@link Credit} et {@link EngagementSignature}
  *
  * @param <I> type du compte en entrée provenant d'EFS
- * @author jntakpe
+ * @author rjansem
  * @see CompteCommun
  * @see Account
  * @see CreditToAccountMapper

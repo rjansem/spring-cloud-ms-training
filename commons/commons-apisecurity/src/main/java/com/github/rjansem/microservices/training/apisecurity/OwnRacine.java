@@ -9,7 +9,7 @@ import java.lang.annotation.*;
 /**
  * Annotation permettant d'indiquer qu'une propriété ou un paramètre doit être une racine appartenant à l'utilisateur courant
  *
- * @author jntakpe
+ * @author rjansem
  * @see OwnRacineValidator
  */
 @NotNull

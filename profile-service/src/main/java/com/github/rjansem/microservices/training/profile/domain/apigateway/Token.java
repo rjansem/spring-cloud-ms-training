@@ -10,7 +10,7 @@ import java.util.Set;
 /**
  * Bean représentant les informations à insérer dans le token généré par l'API Gateway
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class Token {
 

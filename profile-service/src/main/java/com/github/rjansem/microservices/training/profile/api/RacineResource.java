@@ -32,8 +32,8 @@ public class RacineResource {
     }
 
     @RequestMapping(method = RequestMethod.GET)
-    public Single<Racine> findRacineById(@PathVariable String idRacine, @AuthenticationPrincipal AuthenticatedUser user) {
-        return racineService.findRacineById(user,idRacine).toSingle();
+    public Single<Racine> findRacineById(@PathVariable String idRacine, @AuthenticationPrincipal String userId) {
+        return racineService.findRacineById(userId,idRacine).toSingle();
     }
 
 }

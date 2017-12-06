@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 /**
  * Mapper transformant un {@link CompteCourant} en {@link Account}
  *
- * @author jntakpe
+ * @author rjansem
  * @author azzerrifi
  * @see CompteToAccountMapper
  */

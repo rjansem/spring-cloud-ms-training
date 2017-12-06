@@ -8,7 +8,7 @@ import java.util.Map;
  * Convertisseur de token JWT en Authentication. Permet également d'ajouter le token aux paramètres afin de pouvoir le renseigner dans
  * {@link AuthenticatedUser} par la suite
  *
- * @author jntakpe
+ * @author rjansem
  */
 public class CustomJwtAccessTokenConverter extends JwtAccessTokenConverter {
 

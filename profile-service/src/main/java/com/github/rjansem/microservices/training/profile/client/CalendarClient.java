@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
  * Récupère la liste des jours fériés
  *
  * @author mbouhamyd
- * @author jntakpe
+ * @author rjansem
  */
 @Component
 public class CalendarClient {

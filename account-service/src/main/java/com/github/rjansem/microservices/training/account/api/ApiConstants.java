@@ -6,7 +6,7 @@ import com.github.rjansem.microservices.training.apisecurity.ServicesUris;
 /**
  * Constantes liées aux URIs
  *
- * @author jntakpe
+ * @author rjansem
  */
 final class ApiConstants {
 
@@ -30,7 +30,9 @@ final class ApiConstants {
 
     static final String PORTFOLIO_LI = "/investments/{investmentId}";
 
-    private static final String CLIENTS = ServicesUris.API + "/clients";
+    private static final String USER = ServicesUris.API + "/{userId}";
+
+    private static final String CLIENTS = USER + "/clients";
 
     static final String CLIENTS_TECHNICAL_BY_ID = CLIENTS + "/{clientTechnicalId}";
 

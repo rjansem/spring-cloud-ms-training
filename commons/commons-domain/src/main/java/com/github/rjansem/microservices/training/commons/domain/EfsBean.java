@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Interface décrivant un bean communiquant avec EFS
  *
- * @author jntakpe
+ * @author rjansem
  */
 public interface EfsBean extends Serializable {
 

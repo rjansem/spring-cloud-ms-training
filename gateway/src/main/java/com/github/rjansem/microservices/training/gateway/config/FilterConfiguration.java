@@ -11,9 +11,9 @@ import org.springframework.context.annotation.Import;
 @Configuration
 @Import(ZuulProxyConfiguration.class)
 public class FilterConfiguration {
-	
-	@Bean
-	public SSLHostValidationRoutingFilter simpleHostRoutingFilter(ProxyRequestHelper helper, ZuulProperties zuulProperties) {
-		return new SSLHostValidationRoutingFilter(helper, zuulProperties);
-	}
+
+    @Bean
+    public SSLHostValidationRoutingFilter simpleHostRoutingFilter(ProxyRequestHelper helper, ZuulProperties zuulProperties) {
+        return new SSLHostValidationRoutingFilter(helper, zuulProperties);
+    }
 }
