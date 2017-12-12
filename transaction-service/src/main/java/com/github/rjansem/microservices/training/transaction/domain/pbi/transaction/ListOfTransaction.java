@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Bean représentant une liste des ordres de paiement
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class ListOfTransaction implements PbiBean {
 

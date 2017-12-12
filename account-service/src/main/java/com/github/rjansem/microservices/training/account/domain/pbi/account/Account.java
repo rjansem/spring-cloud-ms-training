@@ -15,7 +15,7 @@ import java.util.Objects;
 /**
  * Bean représentant le compte d'un client
  *
- * @author aazzerrifi
+ * @author rjansem
  * @author rjansem
  */
 public class Account implements IdentifiableDomain, PbiBean, Comparable<Account> {

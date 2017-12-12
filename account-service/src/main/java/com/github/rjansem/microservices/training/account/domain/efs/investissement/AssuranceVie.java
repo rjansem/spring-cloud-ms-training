@@ -4,7 +4,7 @@ package com.github.rjansem.microservices.training.account.domain.efs.investissem
 /**
  * Bean représentant une assurances vie d’une racine d’un abonné web
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class AssuranceVie extends Investissement {
 

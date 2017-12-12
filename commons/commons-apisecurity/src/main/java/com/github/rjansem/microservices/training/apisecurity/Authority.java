@@ -36,9 +36,6 @@ public enum Authority {
     @JsonProperty("administration-assurance-vie")
     ADMINISTRATION_ASSURANCE_VIE,
 
-    @JsonProperty("neuflize-vie")
-    NEUFLIZE_VIE,
-
     @JsonProperty("telechargement")
     TELECHARGEMENT,
 

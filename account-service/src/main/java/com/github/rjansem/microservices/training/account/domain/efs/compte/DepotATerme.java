@@ -8,7 +8,7 @@ import java.util.Objects;
 /**
  * Bean représentant un depot à terme
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class DepotATerme implements EfsBean {
 

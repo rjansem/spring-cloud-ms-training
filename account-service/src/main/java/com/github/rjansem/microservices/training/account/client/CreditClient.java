@@ -14,7 +14,7 @@ import static com.github.rjansem.microservices.training.apisecurity.SecurityCons
 /**
  * Repository gérant les manipulations relatives aux comptes crédits
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 @EfsFeignClient
 public interface CreditClient {

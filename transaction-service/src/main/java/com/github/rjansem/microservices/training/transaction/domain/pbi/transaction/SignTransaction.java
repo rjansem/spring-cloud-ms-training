@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Bean représentant la signature d'une transaction
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class SignTransaction implements PbiBean {
 

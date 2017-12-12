@@ -4,7 +4,7 @@ package com.github.rjansem.microservices.training.account.domain.efs.credit;
 /**
  * Bean représentant un credit
  *
- * @author aazzerrifi
+ * @author rjansem
  * @see CompteCommun
  */
 public class Credit extends CompteCommun {

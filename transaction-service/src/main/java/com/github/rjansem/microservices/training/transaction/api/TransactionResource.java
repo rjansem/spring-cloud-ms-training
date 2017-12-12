@@ -20,7 +20,7 @@ import static com.github.rjansem.microservices.training.transaction.api.ApiConst
 /**
  * Ressource REST gérant l'initialisation des ordres
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 @Validated
 @RestController

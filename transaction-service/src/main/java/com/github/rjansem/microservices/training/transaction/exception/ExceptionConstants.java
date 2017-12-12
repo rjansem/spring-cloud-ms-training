@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.transaction.exception;
 /**
  * Constantes liées aux Exceptions
  *
- * @author azzerrifi
+ * @author rjansem
  */
 public class ExceptionConstants{
 

@@ -10,7 +10,7 @@ import java.util.Set;
 /**
  * Bean représentant une liste des clients PIB
  *
- * @author azzerrifi
+ * @author rjansem
  */
 public class ClientList implements PbiBean {
 

@@ -17,94 +17,94 @@ import java.util.TreeMap;
  * @author rjansem
  */
 @JsonIgnoreProperties({"stackTrace", "localizedMessage", "suppressed"})
-public class NOBCException extends RuntimeException {
+public class APIException extends RuntimeException {
 
     public static final String EFS_CODE = "efsCode";
 
     public static final String EFS_MESSAGE = "efsMessage";
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(NOBCException.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(APIException.class);
 
     private final ExceptionCode exceptionCode;
 
     private final Map<String, Object> properties = new TreeMap<>();
 
-    public NOBCException(ExceptionCode exceptionCode) {
+    public APIException(ExceptionCode exceptionCode) {
         this.exceptionCode = exceptionCode;
     }
 
-    public NOBCException(String message, ExceptionCode exceptionCode) {
+    public APIException(String message, ExceptionCode exceptionCode) {
         super(message);
         this.exceptionCode = exceptionCode;
     }
 
-    public NOBCException(Throwable cause, ExceptionCode exceptionCode) {
+    public APIException(Throwable cause, ExceptionCode exceptionCode) {
         super(cause);
         this.exceptionCode = exceptionCode;
     }
 
-    public NOBCException(String message, Throwable cause, ExceptionCode exceptionCode) {
+    public APIException(String message, Throwable cause, ExceptionCode exceptionCode) {
         super(message, cause);
         this.exceptionCode = exceptionCode;
     }
 
     /**
-     * Transforme une exception existante en {@link NOBCException}
+     * Transforme une exception existante en {@link APIException}
      *
      * @param exception exception à transformer
-     * @return nobc exception corresponte
+     * @return exception correspondante
      */
-    public static NOBCException wrap(Throwable exception) {
+    public static APIException wrap(Throwable exception) {
         return wrap(exception, null);
     }
 
     /**
-     * Transforme une exception existante en {@link NOBCException}
+     * Transforme une exception existante en {@link APIException}
      *
      * @param exception     exception à transformer
      * @param exceptionCode code à attribuer à l'exception
-     * @return nobc exception corresponte
+     * @return exception correspondante
      */
-    public static NOBCException wrap(Throwable exception, ExceptionCode exceptionCode) {
-        if (exception instanceof NOBCException) {
-            NOBCException se = (NOBCException) exception;
+    public static APIException wrap(Throwable exception, ExceptionCode exceptionCode) {
+        if (exception instanceof APIException) {
+            APIException se = (APIException) exception;
             if (exceptionCode != null && exceptionCode != se.getExceptionCode()) {
-                return new NOBCException(exception.getMessage(), exception, exceptionCode);
+                return new APIException(exception.getMessage(), exception, exceptionCode);
             }
             return se;
         } else {
-            return new NOBCException(exception.getMessage(), exception, exceptionCode);
+            return new APIException(exception.getMessage(), exception, exceptionCode);
         }
     }
 
     /**
-     * Transforme une exception existante provenant d'EFS en {@link NOBCException}
+     * Transforme une exception existante provenant d'EFS en {@link APIException}
      *
      * @param exception exception à transformer
-     * @return nobc exception corresponte
+     * @return exception correspondante
      */
-    public static NOBCException wrapEfs(Throwable exception) {
+    public static APIException wrapEfs(Throwable exception) {
         if (exception instanceof HystrixRuntimeException) {
             HystrixRuntimeException hystrixException = (HystrixRuntimeException) exception;
             Throwable cause = hystrixException.getCause();
             if (cause instanceof FeignException) {
                 FeignException feignException = (FeignException) cause;
-                NOBCException nobcException = wrap(exception, EfsCode.fromStatus(feignException.status()));
+                APIException apiException = wrap(exception, EfsCode.fromStatus(feignException.status()));
                 if (cause instanceof EfsFeignException) {
                     EfsFeignException efsFeignException = (EfsFeignException) cause;
                     EfsExceptionBean efsException = efsFeignException.getEfsException();
-                    nobcException
+                    apiException
                             .set(EFS_CODE, efsException.getCode())
                             .set(EFS_MESSAGE, efsException.getMessage());
                 }
-                return nobcException;
+                return apiException;
             }
         }
         return wrap(exception, EfsCode.fromStatus(500));
     }
 
     /**
-     * Log et lance une exception {@link NOBCException} lors d'une erreur EFS
+     * Log et lance une exception {@link APIException} lors d'une erreur EFS
      *
      * @param exception exception lancée par EFS
      */
@@ -126,7 +126,7 @@ public class NOBCException extends RuntimeException {
         return (T) properties.get(name);
     }
 
-    public NOBCException set(String name, Object value) {
+    public APIException set(String name, Object value) {
         properties.put(name, value);
         return this;
     }

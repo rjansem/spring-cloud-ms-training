@@ -15,7 +15,7 @@ import java.util.Objects;
 /**
  * Bean représentant un groupe de comptes
  *
- * @author aazzerrifi
+ * @author rjansem
  * @author rjansem
  */
 public class AccountGroup implements PbiBean, Comparable<AccountGroup> {

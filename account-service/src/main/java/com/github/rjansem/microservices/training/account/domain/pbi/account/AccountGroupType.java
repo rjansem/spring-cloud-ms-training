@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * Énumération des types de {@link AccountGroup}
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public enum AccountGroupType {
 

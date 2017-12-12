@@ -13,7 +13,7 @@ import java.util.Objects;
 /**
  * Bean représentant le compte credit d'un client
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class LoanAccount implements IdentifiableDomain, PbiBean {
 

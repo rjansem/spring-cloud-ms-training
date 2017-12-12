@@ -4,7 +4,7 @@ package com.github.rjansem.microservices.training.account.domain.efs.investissem
 /**
  * Bean représentant un portefeuille titres d’une racine d’un abonné web.
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class PortefeuilleTitres extends Investissement {
 

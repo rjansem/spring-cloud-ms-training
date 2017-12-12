@@ -9,7 +9,7 @@ import java.util.Objects;
 /**
  * Bean représentant un compte de transaction
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class TransactionAccount implements PbiBean {
 

@@ -11,7 +11,7 @@ import java.math.BigDecimal;
  * Mapper transformant un {@link CompteCourant} en {@link Account}
  *
  * @author rjansem
- * @author azzerrifi
+ * @author rjansem
  * @see CompteToAccountMapper
  */
 public class CompteCourantToAccountMapper extends CompteToAccountMapper<CompteCourant> {

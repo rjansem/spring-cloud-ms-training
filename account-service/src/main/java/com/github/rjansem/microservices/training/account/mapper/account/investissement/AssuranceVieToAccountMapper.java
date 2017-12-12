@@ -7,7 +7,7 @@ import com.github.rjansem.microservices.training.account.domain.pbi.account.Acco
 /**
  * Mapper transformant un {@link AssuranceVie} en {@link Account}
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class AssuranceVieToAccountMapper extends InvestissementToAccountMapper<AssuranceVie> {
 

@@ -21,11 +21,11 @@ import javax.validation.Valid;
 /**
  * Ressource REST gérant la signature des ordres
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 @Validated
 @RestController
-@RequestMapping(value = ServicesUris.API + ApiConstants.SIGN_PAYMENT)
+@RequestMapping(value = ServicesUris.API)
 public class SignatureResource {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(TransactionResource.class);
@@ -37,7 +37,7 @@ public class SignatureResource {
         this.orderService = orderService;
     }
 
-    @RequestMapping(method = RequestMethod.POST, headers = "Accept=application/json")
+    @RequestMapping(value = ApiConstants.SIGN_PAYMENT, method = RequestMethod.POST, headers = "Accept=application/json")
     public Single<ListOfTransaction> signTransactionByKbv(@PathVariable String userId, @Valid @RequestBody SignTransaction signTransaction) {
 
         return orderService.signPayment(signTransaction, userId)

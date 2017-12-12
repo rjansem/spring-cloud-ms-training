@@ -1,6 +1,6 @@
 package com.github.rjansem.microservices.training.profile.service;
 
-import com.github.rjansem.microservices.training.exception.NOBCException;
+import com.github.rjansem.microservices.training.exception.APIException;
 import com.github.rjansem.microservices.training.profile.client.RacineClient;
 import com.github.rjansem.microservices.training.profile.domain.efs.Racine;
 import org.slf4j.Logger;
@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
  * Services associés à la gestion des {@link Racine}
  *
  * @author rjansem
- * @author aazzerrifi
+ * @author rjansem
  */
 @Service
 public class RacineService {
@@ -60,7 +60,7 @@ public class RacineService {
                 .doOnNext(racines -> LOGGER.info("Récupération de {} racine(s) pour l'utilisateur {}", racines.size(), login))
                 .doOnError(err -> {
                     String msg = String.format("Impossible de récupérer les racines de l'utilisateur %s", login);
-                    NOBCException.throwEfsError(msg, err);
+                    APIException.throwEfsError(msg, err);
                 });
     }
 

@@ -10,7 +10,7 @@ import static com.github.rjansem.microservices.training.account.client.ClientCon
 /**
  * Repository gérant les manipulations relatives aux ribs
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 @EfsFeignClient
 public interface RibCompteClient {

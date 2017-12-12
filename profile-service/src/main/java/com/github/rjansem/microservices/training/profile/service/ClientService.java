@@ -1,6 +1,6 @@
 package com.github.rjansem.microservices.training.profile.service;
 
-import com.github.rjansem.microservices.training.exception.NOBCException;
+import com.github.rjansem.microservices.training.exception.APIException;
 import com.github.rjansem.microservices.training.profile.client.AccountClient;
 import com.github.rjansem.microservices.training.profile.domain.pib.Client;
 import com.github.rjansem.microservices.training.profile.domain.pib.ClientList;
@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
  * Service gérant les {@link Client} PIB
  *
  * @author rjansem
- * @author aazzerrifi
+ * @author rjansem
  */
 @Service
 public class ClientService {
@@ -63,7 +63,7 @@ public class ClientService {
                         accounts.size(), login, codeRacine))
                 .doOnError(err -> {
                     String msg = String.format("Impossible de récupérer les comptes de %s avec la racine %s", login, codeRacine);
-                    NOBCException.throwEfsError(msg, err);
+                    APIException.throwEfsError(msg, err);
                 })
                 .map(accounts -> {
                     if (client.isCreditBulocFlag())

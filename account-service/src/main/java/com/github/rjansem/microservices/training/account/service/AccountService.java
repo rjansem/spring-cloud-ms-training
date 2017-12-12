@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
  * Services associés à la gestion des comptes
  *
  * @author rjansem
- * @author aazzerrifi
+ * @author rjansem
  */
 @Service
 public class AccountService {
@@ -26,15 +26,11 @@ public class AccountService {
 
     private final ChekingAndSavingService chekingAndSavingService;
 
-    private final InvestmentService investissementService;
-
     static final String type_non_connu = FindCompteType.COMPTES_INCONNU.getType();
 
     @Autowired
-    public AccountService(ChekingAndSavingService chekingAndSavingService,
-                          InvestmentService investissementService) {
+    public AccountService(ChekingAndSavingService chekingAndSavingService) {
         this.chekingAndSavingService = chekingAndSavingService;
-        this.investissementService = investissementService;
     }
 
 

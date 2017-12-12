@@ -9,7 +9,7 @@ import com.github.rjansem.microservices.training.account.domain.pbi.account.Acco
 import com.github.rjansem.microservices.training.account.mapper.account.chekingAndSaving.CompteCourantToAccountMapper;
 import com.github.rjansem.microservices.training.account.mapper.account.chekingAndSaving.CompteEpargneToAccountMapper;
 import com.github.rjansem.microservices.training.account.mapper.account.chekingAndSaving.DepotsATermeToAccountMapper;
-import com.github.rjansem.microservices.training.exception.NOBCException;
+import com.github.rjansem.microservices.training.exception.APIException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +24,7 @@ import java.util.Set;
 /**
  * Services associés à la gestion des comptes courant et épargnes
  *
- * @author aazzerrifi
+ * @author rjansem
  * @author rjansem
  */
 @Service
@@ -88,7 +88,7 @@ public class ChekingAndSavingService {
                         login, codeRacine))
                 .doOnError(e -> {
                     String msg = String.format("Impossible de récupérer les comptes courant de %s avec la racine %s", login, codeRacine);
-                    NOBCException.throwEfsError(msg, e);
+                    APIException.throwEfsError(msg, e);
                 });
     }
 
@@ -98,7 +98,7 @@ public class ChekingAndSavingService {
                         login, codeRacine))
                 .doOnError(err -> {
                     String msg = String.format("Impossible de récupérer les depots à terme de %s avec la racine %s", login, codeRacine);
-                    NOBCException.throwEfsError(msg, err);
+                    APIException.throwEfsError(msg, err);
                 });
     }
 
@@ -109,7 +109,7 @@ public class ChekingAndSavingService {
                 .doOnError(err -> {
                     String msg = String.format("Impossible de récupérer les comptes épargne du client %s avec la racine %s", login,
                             codeRacine);
-                    NOBCException.throwEfsError(msg, err);
+                    APIException.throwEfsError(msg, err);
                 });
     }
 }

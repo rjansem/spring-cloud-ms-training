@@ -9,7 +9,7 @@ import java.util.Objects;
 /**
  * Bean représentant un ordre de paiement
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class Payment implements PbiBean {
 

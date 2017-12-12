@@ -10,7 +10,7 @@ import java.util.Objects;
  * Bean représentant un compte crédit remonté par EFS.
  * Les comptes peuvent être de type {@link Credit} ou {@link EngagementSignature}
  *
- * @author aazzerrifi
+ * @author rjansem
  * @see Credit
  * @see EngagementSignature
  */

@@ -14,7 +14,7 @@ import static com.github.rjansem.microservices.training.account.domain.efs.compt
 /**
  * Mapper transformant un {@link DepotATerme} en {@link Account}.
  *
- * @author aazzerrifi
+ * @author rjansem
  * @see DepotATerme
  * @see Account
  */

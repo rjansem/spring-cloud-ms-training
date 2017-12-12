@@ -17,7 +17,7 @@ import static com.github.rjansem.microservices.training.transaction.api.ApiConst
 /**
  * Service pour la gestion des ordres
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 @Service
 public class OrderService {

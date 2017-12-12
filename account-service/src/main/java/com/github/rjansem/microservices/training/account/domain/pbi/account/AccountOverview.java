@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * Bean représentant la synthèse de l'ensemble des comptes
  *
- * @author aazzerrifi
+ * @author rjansem
  * @author rjansem
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)

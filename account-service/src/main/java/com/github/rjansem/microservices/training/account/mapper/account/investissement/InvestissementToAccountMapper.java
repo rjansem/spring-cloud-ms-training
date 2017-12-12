@@ -17,7 +17,7 @@ import java.util.Objects;
  * les {@link PortefeuilleTitres} et {@link AssuranceVie}
  *
  * @param <I> type du compte d'investissement en entr&eacute;e provenant d'EFS
- * @author aazzerrifi
+ * @author rjansem
  * @see Investissement
  * @see Account
  * @see PortefeuillesTitresToAccountMapper

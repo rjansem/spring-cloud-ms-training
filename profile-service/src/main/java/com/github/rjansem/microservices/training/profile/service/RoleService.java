@@ -1,7 +1,7 @@
 package com.github.rjansem.microservices.training.profile.service;
 
 import com.github.rjansem.microservices.training.apisecurity.Authority;
-import com.github.rjansem.microservices.training.exception.NOBCException;
+import com.github.rjansem.microservices.training.exception.APIException;
 import com.github.rjansem.microservices.training.profile.client.RoleClient;
 import com.github.rjansem.microservices.training.profile.domain.efs.Role;
 import org.slf4j.Logger;
@@ -51,7 +51,7 @@ public class RoleService {
                 .doOnNext(roles -> LOGGER.info("Récupération de {} service(s) pour l'utilisateur {}", roles.size(), login))
                 .doOnError(err -> {
                     String msg = String.format("Impossible de récupérer les services de l'utilisateur %s", login);
-                    NOBCException.throwEfsError(msg, err);
+                    APIException.throwEfsError(msg, err);
                 });
     }
 

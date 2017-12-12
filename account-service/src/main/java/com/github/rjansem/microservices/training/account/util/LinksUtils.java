@@ -1,6 +1,6 @@
 package com.github.rjansem.microservices.training.account.util;
 
-import com.github.rjansem.microservices.training.exception.NOBCException;
+import com.github.rjansem.microservices.training.exception.APIException;
 import com.github.rjansem.microservices.training.exception.TechnicalCode;
 
 import java.net.URI;
@@ -27,7 +27,7 @@ public class LinksUtils {
         try {
             uri = new URI(originalUri);
         } catch (URISyntaxException e) {
-            throw new NOBCException("URI invalide", e, TechnicalCode.ILLEGAL_STATE);
+            throw new APIException("URI invalide", e, TechnicalCode.ILLEGAL_STATE);
         }
         String pattern = uri.getScheme() + "://" + uri.getHost();
         if (uri.getPort() != 443) {

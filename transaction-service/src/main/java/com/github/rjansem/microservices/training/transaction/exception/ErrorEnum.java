@@ -9,7 +9,7 @@ import static com.github.rjansem.microservices.training.transaction.exception.Ex
 
 /**
  * @author rjansem
- * @author aazzerrifi
+ * @author rjansem
  */
 public enum ErrorEnum {
 

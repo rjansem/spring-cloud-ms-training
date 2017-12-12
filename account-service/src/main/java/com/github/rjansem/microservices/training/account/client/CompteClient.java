@@ -17,7 +17,7 @@ import static com.github.rjansem.microservices.training.account.client.ClientCon
  * Repository gérant les manipulations relatives aux comptes
  *
  * @author rjansem
- * @author aazzerrifi
+ * @author rjansem
  * @author mbouhamyd
  */
 @EfsFeignClient
@@ -63,18 +63,6 @@ public interface CompteClient {
     Observable<AssuranceVie> findDetailAssuranceVieByLoginAndRacine(@PathVariable(NUM_PARAM) String numero,
                                                                     @RequestParam(LOGIN_PARAM) String login,
                                                                     @RequestParam(CODE_RACINE_PARAM) String codeRacine);
-
-    @RequestMapping(value = ASSURANCES_VIE_NOBC, method = RequestMethod.GET)
-    Observable<AssuranceVie> findDetailAssuranceVieNobcByLoginAndRacine(@PathVariable(NUM_PARAM) String numero,
-                                                                        @RequestParam(LOGIN_PARAM) String login,
-                                                                        @RequestParam(CODE_RACINE_PARAM) String codeRacine,
-                                                                        @RequestParam(DATE_VALORISATION_PARAM) String datevalorisation);
-
-    @RequestMapping(value = ASSURANCES_VIE_NOBC, method = RequestMethod.GET)
-    Observable<AssuranceVie> findDetailAssuranceVieNobcByLoginAndRacine(@PathVariable(NUM_PARAM) String numero,
-                                                                        @RequestParam(LOGIN_PARAM) String login,
-                                                                        @RequestParam(CODE_RACINE_PARAM) String codeRacine);
-
 
     @RequestMapping(value = COMPTE_DETAIL, method = RequestMethod.GET)
     Observable<CompteCourant> findDetailCompteCourantByIban(@PathVariable(IBAN_PARAM) String iban,

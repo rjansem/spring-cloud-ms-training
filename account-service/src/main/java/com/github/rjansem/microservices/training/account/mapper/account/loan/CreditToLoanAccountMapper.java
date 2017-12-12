@@ -14,7 +14,7 @@ import static com.github.rjansem.microservices.training.account.domain.efs.compt
 /**
  * Mapper transformant un {@link Credit} en {@link LoanAccount}
  *
- * @author aazzerrifi
+ * @author rjansem
  * @see CreditToLoanAccountMapper
  */
 public class CreditToLoanAccountMapper implements EfsToPibMapper<Credit, LoanAccount> {

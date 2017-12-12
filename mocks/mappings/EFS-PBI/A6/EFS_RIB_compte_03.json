@@ -20,9 +20,9 @@
     "jsonBody": [
       {
         "domiciliation": {
-          "nom": "Banque Neuflize OBC - 00100",
-          "adresse1": "3, avenue Hoche",
-          "adresse2": "75410 Paris Cedex 08",
+          "nom": "Banque Test",
+          "adresse1": "5, rue de la Paix",
+          "adresse2": "75009 Paris",
           "adresse3": "",
           "pays": "FRANCE"
         },

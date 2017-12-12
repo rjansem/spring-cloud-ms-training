@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 /**
  * Bean représentant les informations d'une transaction
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class TransactionInfo implements PbiBean {
 

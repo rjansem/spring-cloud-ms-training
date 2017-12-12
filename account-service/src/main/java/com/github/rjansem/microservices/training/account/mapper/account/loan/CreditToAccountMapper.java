@@ -13,7 +13,7 @@ import static com.github.rjansem.microservices.training.account.domain.efs.compt
 /**
  * Mapper transformant un {@link Credit} en {@link Account}
  *
- * @author aazzerrifi
+ * @author rjansem
  * @see CompteCommunToAccountMapper
  */
 public class CreditToAccountMapper extends CompteCommunToAccountMapper<Credit> {

@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Énumération des types de comptes
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public enum FindCompteType {
 

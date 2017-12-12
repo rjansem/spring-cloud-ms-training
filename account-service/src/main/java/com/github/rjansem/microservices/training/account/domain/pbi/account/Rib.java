@@ -10,7 +10,7 @@ import java.util.Objects;
 /**
  * Bean représentant le RIB d'un compte d'un client
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class Rib implements PbiBean, IdentifiableDomain {
 

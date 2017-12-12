@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * Bean représentant une liste des beneficiaires
- * @author aazzerrifi
+ * @author rjansem
  */
 public class RetrieveABook implements PbiBean {
 

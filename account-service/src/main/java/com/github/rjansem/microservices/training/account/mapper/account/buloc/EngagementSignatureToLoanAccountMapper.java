@@ -14,7 +14,7 @@ import static com.github.rjansem.microservices.training.account.domain.efs.compt
 /**
  * Mapper transformant un {@link EngagementSignature} en {@link LoanAccount}
  *
- * @author aazzerrifi
+ * @author rjansem
  * @see EngagementSignatureToLoanAccountMapper
  */
 public class EngagementSignatureToLoanAccountMapper implements EfsToPibMapper<EngagementSignature, LoanAccount> {

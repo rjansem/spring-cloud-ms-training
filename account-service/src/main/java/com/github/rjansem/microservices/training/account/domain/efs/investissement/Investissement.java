@@ -9,7 +9,7 @@ import java.util.Objects;
  * Bean représentant un compte d'investissement remonté par EFS.
  * Les comptes peuvent être de type {@link AssuranceVie} ou {@link PortefeuilleTitres}
  *
- * @author aazzerrifi
+ * @author rjansem
  * @see AssuranceVie
  * @see PortefeuilleTitres
  */

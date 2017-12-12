@@ -3,7 +3,6 @@ package com.github.rjansem.microservices.training.account.api;
 import com.github.rjansem.microservices.training.account.domain.pbi.account.Account;
 import com.github.rjansem.microservices.training.account.service.AccountService;
 import com.github.rjansem.microservices.training.account.util.AccountTypeValidator;
-import com.github.rjansem.microservices.training.apisecurity.OwnRacine;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

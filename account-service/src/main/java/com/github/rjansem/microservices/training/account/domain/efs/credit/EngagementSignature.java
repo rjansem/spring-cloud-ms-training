@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.account.domain.efs.credit;
 /**
  * Bean représentant un Engagement par signature
  *
- * @author aazzerrifi
+ * @author rjansem
  * @see CompteCommun
  */
 public class EngagementSignature extends CompteCommun {

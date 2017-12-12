@@ -8,7 +8,7 @@ import com.github.rjansem.microservices.training.commons.domain.utils.FindCompte
 /**
  * Mapper transformant un {@link PortefeuilleTitres} en {@link Account}
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class PortefeuillesTitresToAccountMapper extends InvestissementToAccountMapper<PortefeuilleTitres> {
 

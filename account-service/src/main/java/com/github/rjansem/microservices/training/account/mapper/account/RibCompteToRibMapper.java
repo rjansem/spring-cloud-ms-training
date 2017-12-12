@@ -11,7 +11,7 @@ import java.util.StringJoiner;
 /**
  * Mapper transformant un {@link RibCompte} en {@link Rib}.
  *
- * @author aazzerrifi
+ * @author rjansem
  * @see RibCompte
  * @see Rib
  */

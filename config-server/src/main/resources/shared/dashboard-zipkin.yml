@@ -9,6 +9,10 @@ spring:
   rabbitmq:
     port: 5672
 logging:
-  path: c:/tmp
+  file: c:/tmp/dashboard-zipkin.log
   level:
     com.github.rjansem.microservices.training: TRACE
+    org.springframework: WARN
+    root: ERROR
+  pattern:
+    file: '[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%thread] %level %logger{36}@%method:%line - %msg%n'

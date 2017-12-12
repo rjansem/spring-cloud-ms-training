@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 /**
  * Utilitaires de mapping d'opérations
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 final class OperationMapperUtils {
 

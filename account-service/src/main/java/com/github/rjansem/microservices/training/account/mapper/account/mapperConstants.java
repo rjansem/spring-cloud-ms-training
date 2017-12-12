@@ -3,7 +3,7 @@ package com.github.rjansem.microservices.training.account.mapper.account;
 /**
  * Constantes liées aux mapping des données
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 final class MapperConstants {
 

@@ -6,7 +6,7 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 /**
  * Bean représentant l'adresse liée à un compte.
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class Domiciliation implements EfsBean {
 

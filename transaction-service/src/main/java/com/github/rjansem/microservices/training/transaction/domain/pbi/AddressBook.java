@@ -11,7 +11,7 @@ import java.util.Objects;
 
 /**
  * Bean représentant un beneficiaire
- * @author aazzerrifi
+ * @author rjansem
  */
 public class AddressBook implements PbiBean, Comparable<AddressBook> {
 

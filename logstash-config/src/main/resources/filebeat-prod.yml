@@ -1,8 +1,0 @@
-filebeat.prospectors:
-- input_type: log
-  paths:
-    - /var/log/nobc-api/*/*.log
-
-#----------------------------- Logstash output --------------------------------
-output.logstash:
-  hosts: ["127.0.0.1:5044"] # IP du serveur de supervision

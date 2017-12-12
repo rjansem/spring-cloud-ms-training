@@ -5,7 +5,12 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
 logging:
-  path: c:/tmp
+  file: c:/tmp/registry-server.log
   level:
     com.github.rjansem.microservices.training: TRACE
+    org.springframework: WARN
+    com.netflix: WARN
+    root: ERROR
+  pattern:
+    file: '[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%thread] %level %logger{36}@%method:%line - %msg%n'
 

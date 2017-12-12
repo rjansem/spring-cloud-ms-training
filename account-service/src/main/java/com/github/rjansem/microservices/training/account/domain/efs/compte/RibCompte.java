@@ -9,7 +9,7 @@ import java.util.Objects;
 /**
  * Bean représentant un RIB d’un compte d’une racine d’un abonné web.
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class RibCompte implements EfsBean {
 

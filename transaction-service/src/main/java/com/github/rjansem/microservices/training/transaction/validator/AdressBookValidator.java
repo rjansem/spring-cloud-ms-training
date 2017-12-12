@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Validator de l'objet {@link AddressBook}
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 @Component
 public class AdressBookValidator {

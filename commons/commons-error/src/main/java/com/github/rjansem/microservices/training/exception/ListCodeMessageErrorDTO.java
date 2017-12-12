@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Bean renvoyé suite à une erreur
  *
- * @author aazzerrifi
+ * @author rjansem
  */
 public class ListCodeMessageErrorDTO {
 
